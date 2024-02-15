@@ -1,0 +1,20 @@
+{% extends "core/base.html" %}
+
+{% block content %}
+<h1>Game List</h1>
+<ul>
+	{% for game in games %}
+	<li>
+		<strong>{{ game.title }}</strong><br />
+		Name: {{ game.name }}<br />
+		Release Date: {{ game.release_date }}<br />
+		Reviews Count: {{ game.reviews_count }}<br />
+		Positive Reviews Percent: {{ game.positive_reviews_percent }}%<br />
+		Price: ${{ game.price }}<br />
+		<img src="{{ game.img }}" alt="{{ game.title }} Image" /><br/>
+		<a href="{{ game.url }}" target="_blank">Steam Link</a>
+	</li>
+	<br />
+	{% endfor %}
+</ul>
+{% endblock content %}

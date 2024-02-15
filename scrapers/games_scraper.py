@@ -1,4 +1,6 @@
-import json
+import mysql.connector
+import re
+from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
@@ -6,7 +8,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
-import mysql.connector
 
 class Database:
     def __init__(self, host, user, password, database_name):
@@ -21,18 +22,25 @@ class Database:
             password=self.password,
             database=self.database_name
         )
-        self.truncate_table()
 
-    def insert_into_database(self, url, theme, header, time_created, image_url):
+    def insert_game_into_database(self, game):
         cursor = self.connection.cursor()
-        insert_query = "INSERT INTO yle.kymenlaakso_articles (article_url, article_theme, article_header, article_time_created, article_image_url) VALUES (%s, %s, %s, %s, %s)"
-        query_values = (url, theme, header, time_created, image_url)
+        insert_query = "INSERT INTO webscrap.games_game (name, release_date, reviews_count, positive_reviews_percent, price, img, url) VALUES (%s, %s, %s, %s, %s, %s, %s)"
+        query_values = (
+            game.name,
+            game.release_date,
+            game.reviews_count,
+            game.positive_reviews_percent,
+            game.price,
+            game.img,
+            game.url
+        )
         cursor.execute(insert_query, query_values)
         self.connection.commit()
 
     def truncate_table(self):
         cursor = self.connection.cursor()
-        truncate_query = "TRUNCATE TABLE yle.kymenlaakso_articles"
+        truncate_query = "TRUNCATE TABLE webscrap.games_game"
         cursor.execute(truncate_query)
         self.connection.commit()
 
@@ -61,21 +69,18 @@ def find_games():
 
         name_elements = soup.find_all("span", class_="title")
         release_dates = soup.find_all("div", class_="col search_released responsive_secondrow")
-        reviews = soup.find_all("span", class_="search_review_summary positive")
+        game_elements = soup.find_all("span", class_="search_review_summary positive")
         prices = soup.find_all("div", class_="col search_discount_and_price responsive_secondrow")
+        images = soup.find_all("div", class_="col search_capsule")
+        urls = soup.find_all('a', {'data-ds-appid': True})
 
-        print(len(name_elements))
-        print(len(reviews))
-        print(len(release_dates))
-        print(len(prices))
-
-        for name_element, release_date, review, current_price in zip(name_elements, release_dates, reviews, prices):
+        for name_element, release_date, game_element, price, image, url in zip(name_elements, release_dates, game_elements, prices, images, urls):
             current_name = name_element.text
-            current_release_date = release_date.text
-            current_reviews_count = get_reviews_count(review["data-tooltip-html"])
-            current_positive_reviews_percent = get_positive_reviews_percent(review["data-tooltip-html"])
+            current_release_date = get_date_from_string(release_date.text)
+            current_reviews_count = get_reviews_count(game_element["data-tooltip-html"])
+            current_positive_reviews_percent = get_positive_reviews_percent(game_element["data-tooltip-html"])
             
-            price_element = current_price.find("div", class_=["discount_final_price", "discount_final_price free"])
+            price_element = price.find("div", class_=["discount_final_price", "discount_final_price free"])
             
             if price_element and price_element.text == "Free":
                 current_price = 0.0
@@ -84,36 +89,35 @@ def find_games():
             else:
                 current_price = 0.0
             
-            games.append(Game(current_name, current_release_date, current_reviews_count, current_positive_reviews_percent, current_price, None, None))
+            current_image = image.find("img")["src"]
+            current_url = url.get("href")
             
-        return games
+            games.append(Game(current_name, current_release_date, current_reviews_count, current_positive_reviews_percent, current_price, current_image, current_url))
 
-# Very Positive<br>87% of the 7,891,357 user reviews for this game are positive.
+    return games
 
-def get_reviews_count(text):
-    start_index = text.find("of the ") + len("of the ")
-    end_index = text.find(" user reviews")
-    reviews_count_str = text[start_index:end_index]
+def get_date_from_string(value):
+    cleaned_value = value.strip()
     
-    return float(reviews_count_str)
+    return datetime.strptime(cleaned_value, "%d %b, %Y")
 
-def get_positive_reviews_count(value):
+def get_reviews_count(value):
     start_index = value.find("of the ") + len("of the ")
     end_index = value.find(" user reviews")
     reviews_count_str = value[start_index:end_index]
     
-    return float(reviews_count_str)
+    return int(reviews_count_str.replace(',', ''))
 
-def save_to_json(filename, games):
-    if not games:
-        print("Games not found. Can't save to JSON.")
-        return
+def get_positive_reviews_percent(value):
+    match = re.search(r'(\d+)%', value)
+    
+    return int(match.group(1))
 
-    with open(filename, "w", encoding="utf-8") as json_file:
-        game_list = [vars(game) for game in games]
-        json.dump(game_list, json_file, indent=2)
+game_list = find_games()
 
 database = Database("localhost", "root", "", "webscrap")
 
-game_list = find_games()
-save_to_json("scrapers/results.json", game_list)
+database.truncate_table()
+
+for game in game_list:
+    database.insert_game_into_database(game)
