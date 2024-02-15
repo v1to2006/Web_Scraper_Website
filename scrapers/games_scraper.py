@@ -60,7 +60,7 @@ class Game:
 
 def find_games():
     games = []
-    url = 'https://store.steampowered.com/search/?term='
+    url = 'https://store.steampowered.com/search/?sort_by=Released_DESC&category1=998&os=win&supportedlang=english%2Crussian%2Cfinnish&filter=popularnew&ndl=1'
 
     with webdriver.Chrome(service=ChromeService(ChromeDriverManager().install())) as driver:
         driver.get(url)
