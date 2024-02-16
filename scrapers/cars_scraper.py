@@ -90,3 +90,5 @@ database.truncate_table()
 
 for car in car_list:
     database.insert_cars_into_database(car)
+
+print("Cars scraped")

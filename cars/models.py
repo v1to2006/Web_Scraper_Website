@@ -10,4 +10,4 @@ class Car(models.Model):
     url = models.URLField()
 
     def __str__(self):
-        return self.make
+        return f'{self.make} {self.model}'

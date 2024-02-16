@@ -120,3 +120,5 @@ database.truncate_table()
 
 for game in game_list:
     database.insert_game_into_database(game)
+
+print("Games scraped")
