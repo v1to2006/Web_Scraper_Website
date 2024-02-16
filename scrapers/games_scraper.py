@@ -72,7 +72,7 @@ def find_games():
         prices = soup.find_all("div", class_="col search_discount_and_price responsive_secondrow")
         images = soup.find_all("div", class_="col search_capsule")
         urls = soup.find_all('a', {'data-ds-appid': True})
-
+        
         for name_element, release_date, game_element, price, image, url in zip(name_elements, release_dates, game_elements, prices, images, urls):
             current_name = name_element.text
             current_release_date = get_date_from_string(release_date.text)
@@ -121,4 +121,4 @@ database.truncate_table()
 for game in game_list:
     database.insert_game_into_database(game)
 
-print("Games scraped")
+print(f'Games scraped ({len(game_list)} found)')

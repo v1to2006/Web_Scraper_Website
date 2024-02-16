@@ -87,4 +87,4 @@ database.truncate_table()
 for tractor in tractor_list:
     database.insert_tractors_into_database(tractor)
 
-print("Tractors scraped")
+print(f'Tractors scraped ({len(tractor_list)} found)')
