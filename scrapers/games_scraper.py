@@ -1,5 +1,4 @@
-import mysql.connector
-import re
+import mysql.connector, re, time
 from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
@@ -64,7 +63,7 @@ def find_games():
 
     with webdriver.Chrome(service=ChromeService(ChromeDriverManager().install())) as driver:
         driver.get(url)
-        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "title")))
+        time.sleep(0.1)
         soup = BeautifulSoup(driver.page_source, "html.parser")
 
         name_elements = soup.find_all("span", class_="title")

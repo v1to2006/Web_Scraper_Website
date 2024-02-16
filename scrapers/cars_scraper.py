@@ -1,6 +1,4 @@
-import mysql.connector
-import re
-from datetime import datetime
+import mysql.connector, time
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
@@ -62,22 +60,22 @@ def find_cars():
     cars = []
 
     with webdriver.Chrome(service=ChromeService(ChromeDriverManager().install())) as driver:
-        url = 'https://www.nettiauto.com/vaihtoautot?new=H&id_country[]=73&sortCol=enrolldate&ord=DESC'
+        url = 'https://www.nettiauto.com/vaihtoautot?sortCol=enrolldate&ord=DESC&page='
 
         driver.get(url)
-        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "title")))
+        time.sleep(0.1)
         soup = BeautifulSoup(driver.page_source, "html.parser")
 
         car_elements = soup.find_all("a", class_="childVifUrl tricky_link")
-        car_images = soup.find_all("img", class_=" lazyloaded")
-
+        car_images = soup.find_all("img", {'border': True})
+        
         for car, image in zip(car_elements, car_images):
             current_make = car["data-make"]
             current_model = car["data-model"]
             current_year = int(car["data-year"])
             current_mileage = int(car["data-mileage"])
             current_price = int(car["data-price"])
-            current_image = image["src"]
+            current_image = image["data-src"]
             current_url = car["href"]
             
             cars.append(Car(current_make, current_model, current_year, current_mileage, current_price, current_image, current_url))
