@@ -5,6 +5,7 @@ class Game(models.Model):
     release_date = models.DateField()
     reviews_count = models.IntegerField()
     positive_reviews_percent = models.FloatField()
+    metacritic_score = models.IntegerField()
     price = models.DecimalField(max_digits=10, decimal_places=2)
     img = models.URLField()
     url = models.URLField()
