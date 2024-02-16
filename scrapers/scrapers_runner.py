@@ -1,7 +1,8 @@
-import time, os
+import time
+import os
 
 def run_scraper(scraper):
-    command = f'py C:\GitHub\Web\Web_Scraper_Project\Web_Scraper_Website\scrapers\{scraper}'
+    command = f'py C:\\GitHub\\Web\\Web_Scraper_Project\\Web_Scraper_Website\\scrapers\\{scraper}'
     os.system(command)
 
 scrapers = ['cars_scraper.py', 'tractors_scraper.py', 'games_scraper.py']
