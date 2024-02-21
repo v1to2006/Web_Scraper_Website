@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import game_list
+from .views import games
 
 urlpatterns = [
-    path('', game_list, name='games_view'),
+    path('', games, name='games_view'),
 ]

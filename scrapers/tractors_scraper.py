@@ -1,46 +1,8 @@
-import mysql.connector, time
+import time, json
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
-
-class Database:
-    def __init__(self, host, user, password, database_name):
-        self.host = host
-        self.user = user
-        self.password = password
-        self.database_name = database_name
-
-        self.connection = mysql.connector.connect(
-            host=self.host,
-            user=self.user,
-            password=self.password,
-            database=self.database_name
-        )
-
-    def insert_tractors_into_database(self, tractor):
-        cursor = self.connection.cursor()
-        insert_query = "INSERT INTO webscrap.tractors_tractor (name, price, img, url) VALUES (%s, %s, %s, %s)"
-        query_values = (
-            tractor.name,
-            tractor.price,
-            tractor.img,
-            tractor.url
-        )
-        cursor.execute(insert_query, query_values)
-        self.connection.commit()
-
-    def truncate_table(self):
-        cursor = self.connection.cursor()
-        truncate_query = "TRUNCATE TABLE webscrap.tractors_tractor"
-        cursor.execute(truncate_query)
-        self.connection.commit()
-
-    def __del__(self):
-        if hasattr(self, 'connection') and self.connection.is_connected():
-            self.connection.close()
 
 class Tractor:
     def __init__(self, name, price, img, url):
@@ -78,13 +40,15 @@ def find_tractors():
 
     return tractors
 
+def save_to_json(filename):
+    with open(filename, 'w') as json_file:
+        tractor_list_data = [vars(tractor) for tractor in tractor_list]
+        json.dump(tractor_list_data, json_file, indent=2)
+       
+        print(f"Tractors results saved to {filename}")
+
 tractor_list = find_tractors()
 
-database = Database("localhost", "root", "", "webscrap")
-
-database.truncate_table()
-
-for tractor in tractor_list:
-    database.insert_tractors_into_database(tractor)
+save_to_json("C:/GitHub/Web/Web_Scraper_Project/Web_Scraper_Website/scrapers/results/tractors_results.json")
 
 print(f'Tractors scraped ({len(tractor_list)} found)')

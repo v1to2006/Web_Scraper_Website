@@ -1,6 +1,16 @@
+import json
 from django.shortcuts import render
-from .models import Tractor
+from django.http import HttpResponseServerError
 
-def tractor_list(request):
-    tractors = Tractor.objects.all()
+def tractors(request):
+    file_path = 'C:/GitHub/Web/Web_Scraper_Project/Web_Scraper_Website/scrapers/results/tractors_results.json'
+
+    try:
+        with open(file_path, 'r') as file:
+            tractors = json.load(file)
+    except FileNotFoundError:
+        return HttpResponseServerError("Tractors data file not found.")
+    except json.JSONDecodeError:
+        return HttpResponseServerError("Error decoding JSON data.")
+
     return render(request, 'tractors/tractors.html', {'tractors': tractors})

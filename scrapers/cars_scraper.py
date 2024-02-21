@@ -1,50 +1,8 @@
-import mysql.connector, time
+import time, json
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
-
-class Database:
-    def __init__(self, host, user, password, database_name):
-        self.host = host
-        self.user = user
-        self.password = password
-        self.database_name = database_name
-
-        self.connection = mysql.connector.connect(
-            host=self.host,
-            user=self.user,
-            password=self.password,
-            database=self.database_name
-        )
-
-    def insert_cars_into_database(self, game):
-        cursor = self.connection.cursor()
-        insert_query = "INSERT INTO webscrap.cars_car (make, model, year, mileage, price, img, url) VALUES (%s, %s, %s, %s, %s, %s, %s)"
-        query_values = (
-            game.make,
-            game.model,
-            game.year,
-            game.mileage,
-            game.price,
-            game.img,
-            game.url
-        )
-        cursor.execute(insert_query, query_values)
-        self.connection.commit()
-
-    def truncate_table(self):
-        cursor = self.connection.cursor()
-        truncate_query = "TRUNCATE TABLE webscrap.cars_car"
-        cursor.execute(truncate_query)
-        self.connection.commit()
-
-    def __del__(self):
-        if hasattr(self, 'connection') and self.connection.is_connected():
-            self.connection.close()
 
 class Car:
     def __init__(self, make, model, year, mileage, price, img, url):
@@ -82,13 +40,15 @@ def find_cars():
 
     return cars
 
+def save_to_json(filename):
+    with open(filename, 'w') as json_file:
+        car_list_data = [vars(car) for car in car_list]
+        json.dump(car_list_data, json_file, indent=2)
+       
+        print(f"Cars results saved to {filename}")
+
 car_list = find_cars()
 
-database = Database("localhost", "root", "", "webscrap")
-
-database.truncate_table()
-
-for car in car_list:
-    database.insert_cars_into_database(car)
+save_to_json("C:/GitHub/Web/Web_Scraper_Project/Web_Scraper_Website/scrapers/results/cars_results.json")
 
 print(f'Cars scraped ({len(car_list)} found)')

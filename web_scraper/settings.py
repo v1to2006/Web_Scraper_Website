@@ -51,6 +51,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'web_scraper.wsgi.application'
 
+"""
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -64,6 +65,7 @@ DATABASES = {
         }
     }
 }
+"""
 
 AUTH_PASSWORD_VALIDATORS = [
     {

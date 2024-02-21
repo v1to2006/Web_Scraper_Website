@@ -1,0 +1,290 @@
+[
+  {
+    "make": "Mercedes-Benz",
+    "model": "Sprinter",
+    "year": 2020,
+    "mileage": 65000,
+    "price": 44900,
+    "img": "https://images.nettiauto.com/live/2023/11/20/0ef0e1bdcccd0749-largeThumbnail.jpg",
+    "url": "https://www.nettiauto.com/mercedes-benz/sprinter/13869195"
+  },
+  {
+    "make": "Audi",
+    "model": "A3",
+    "year": 2014,
+    "mileage": 155000,
+    "price": 15870,
+    "img": "https://images.nettiauto.com/live/2024/01/12/4c0d39f7be9359b7-largeThumbnail.jpg",
+    "url": "https://www.nettiauto.com/audi/a3/14064428"
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Passat",
+    "year": 2015,
+    "mileage": 138000,
+    "price": 10900,
+    "img": "https://images.nettiauto.com/live/2024/02/21/d12636d081678b15-largeThumbnail.jpg",
+    "url": "https://www.nettiauto.com/volkswagen/passat/14140532"
+  },
+  {
+    "make": "Skoda",
+    "model": "Rapid",
+    "year": 2014,
+    "mileage": 136000,
+    "price": 7990,
+    "img": "https://images.nettiauto.com/live/2024/02/21/abf6fbaa1032f4a3-largeThumbnail.jpg",
+    "url": "https://www.nettiauto.com/skoda/rapid/14140531"
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Passat",
+    "year": 2016,
+    "mileage": 75000,
+    "price": 20400,
+    "img": "https://images.nettiauto.com/live/2023/10/20/0e3a4b80d98e5c73-largeThumbnail.jpg",
+    "url": "https://www.nettiauto.com/volkswagen/passat/14140530"
+  },
+  {
+    "make": "Skoda",
+    "model": "Superb",
+    "year": 2022,
+    "mileage": 54000,
+    "price": 48900,
+    "img": "https://images.nettiauto.com/live/2023/04/25/90a89aed419fc73e-largeThumbnail.jpg",
+    "url": "https://www.nettiauto.com/skoda/superb/14140529"
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "Sprinter",
+    "year": 2018,
+    "mileage": 175000,
+    "price": 31900,
+    "img": "https://images.nettiauto.com/live/2024/01/16/1433df043ef19929-largeThumbnail.jpg",
+    "url": "https://www.nettiauto.com/mercedes-benz/sprinter/14140528"
+  },
+  {
+    "make": "BMW",
+    "model": "i4",
+    "year": 2022,
+    "mileage": 9600,
+    "price": 59780,
+    "img": "https://images.nettiauto.com/live/2023/12/02/56a0192c3faa1ee3-largeThumbnail.jpg",
+    "url": "https://www.nettiauto.com/bmw/i4/14140527"
+  },
+  {
+    "make": "Cupra",
+    "model": "Leon Sportstourer",
+    "year": 2023,
+    "mileage": 0,
+    "price": 41161,
+    "img": "https://images.nettiauto.com/live/2023/08/16/a4a4d286146b2c57-largeThumbnail.jpg",
+    "url": "https://www.nettiauto.com/cupra/leon-sportstourer/14140526"
+  },
+  {
+    "make": "Volvo",
+    "model": "XC60",
+    "year": 2019,
+    "mileage": 90000,
+    "price": 38900,
+    "img": "https://images.nettiauto.com/live/2023/08/23/cb0deb33f228e50c-largeThumbnail.jpg",
+    "url": "https://www.nettiauto.com/volvo/xc60/14140525"
+  },
+  {
+    "make": "Peugeot",
+    "model": "3008",
+    "year": 2017,
+    "mileage": 158000,
+    "price": 15880,
+    "img": "https://images.nettiauto.com/live/2024/02/21/f559b2284c658ff7-largeThumbnail.jpg",
+    "url": "https://www.nettiauto.com/peugeot/3008/14140524"
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "E",
+    "year": 2010,
+    "mileage": 275000,
+    "price": 12880,
+    "img": "https://images.nettiauto.com/live/2024/02/21/9fb8c9819593057d-largeThumbnail.jpg",
+    "url": "https://www.nettiauto.com/mercedes-benz/e/14140523"
+  },
+  {
+    "make": "Toyota",
+    "model": "Yaris",
+    "year": 2015,
+    "mileage": 93000,
+    "price": 14400,
+    "img": "https://images.nettiauto.com/live/2024/02/21/6da144d75a5e34c8-largeThumbnail.jpg",
+    "url": "https://www.nettiauto.com/toyota/yaris/14140522"
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "Sprinter",
+    "year": 2024,
+    "mileage": 500,
+    "price": 109740,
+    "img": "https://images.nettiauto.com/live/2024/02/21/f749d740520668d2-largeThumbnail.jpg",
+    "url": "https://www.nettiauto.com/mercedes-benz/sprinter/14140521"
+  },
+  {
+    "make": "Mitsubishi",
+    "model": "Eclipse Cross",
+    "year": 2019,
+    "mileage": 55000,
+    "price": 22800,
+    "img": "https://images.nettiauto.com/live/2024/02/21/f4d3c05bbd029239-largeThumbnail.jpg",
+    "url": "https://www.nettiauto.com/mitsubishi/eclipse-cross/14140520"
+  },
+  {
+    "make": "Honda",
+    "model": "CR-V",
+    "year": 2019,
+    "mileage": 97000,
+    "price": 27900,
+    "img": "https://images.nettiauto.com/live/2024/01/16/1433df043ef19929-largeThumbnail.jpg",
+    "url": "https://www.nettiauto.com/honda/cr-v/14140519"
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "E",
+    "year": 2015,
+    "mileage": 154000,
+    "price": 24900,
+    "img": "https://images.nettiauto.com/live/2024/02/21/1f4703f027055ad7-largeThumbnail.jpg",
+    "url": "https://www.nettiauto.com/mercedes-benz/e/14140518"
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "E",
+    "year": 2013,
+    "mileage": 164000,
+    "price": 18900,
+    "img": "https://images.nettiauto.com/live/2024/01/26/392bd39a1c8238f0-largeThumbnail.jpg",
+    "url": "https://www.nettiauto.com/mercedes-benz/e/14140516"
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "E",
+    "year": 2015,
+    "mileage": 442000,
+    "price": 11490,
+    "img": "https://images.nettiauto.com/live/2024/02/21/2d220e9211d66767-largeThumbnail.jpg",
+    "url": "https://www.nettiauto.com/mercedes-benz/e/14140515"
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "C",
+    "year": 2021,
+    "mileage": 130000,
+    "price": 30890,
+    "img": "https://images.nettiauto.com/live/2024/01/16/1433df043ef19929-largeThumbnail.jpg",
+    "url": "https://www.nettiauto.com/mercedes-benz/c/14140514"
+  },
+  {
+    "make": "Ford",
+    "model": "Mondeo",
+    "year": 2015,
+    "mileage": 164000,
+    "price": 11250,
+    "img": "https://images.nettiauto.com/live/2024/01/26/392bd39a1c8238f0-largeThumbnail.jpg",
+    "url": "https://www.nettiauto.com/ford/mondeo/14140513"
+  },
+  {
+    "make": "BMW",
+    "model": "320",
+    "year": 2009,
+    "mileage": 253000,
+    "price": 8250,
+    "img": "https://images.nettiauto.com/live/2024/02/21/5e460e8c17584d7e-largeThumbnail.jpg",
+    "url": "https://www.nettiauto.com/bmw/320/14140512"
+  },
+  {
+    "make": "BMW",
+    "model": "X5",
+    "year": 2002,
+    "mileage": 464000,
+    "price": 4900,
+    "img": "https://images.nettiauto.com/live/2024/02/21/0398ca5776ff8d0e-largeThumbnail.jpg",
+    "url": "https://www.nettiauto.com/bmw/x5/14140511"
+  },
+  {
+    "make": "Peugeot",
+    "model": "308",
+    "year": 2016,
+    "mileage": 204000,
+    "price": 8250,
+    "img": "https://images.nettiauto.com/live/2024/02/21/8e20e2947ccd7e4f-largeThumbnail.jpg",
+    "url": "https://www.nettiauto.com/peugeot/308/14140510"
+  },
+  {
+    "make": "Ford",
+    "model": "Kuga",
+    "year": 2015,
+    "mileage": 150000,
+    "price": 15400,
+    "img": "https://images.nettiauto.com/live/2023/12/20/66db3bb5f5c62a7e-largeThumbnail.jpg",
+    "url": "https://www.nettiauto.com/ford/kuga/14140509"
+  },
+  {
+    "make": "Land Rover",
+    "model": "Freelander",
+    "year": 2007,
+    "mileage": 296000,
+    "price": 6500,
+    "img": "https://images.nettiauto.com/live/2024/02/21/95036111fbe1f4a4-largeThumbnail.jpg",
+    "url": "https://www.nettiauto.com/land-rover/freelander/14140508"
+  },
+  {
+    "make": "Hyundai",
+    "model": "i20",
+    "year": 2011,
+    "mileage": 153000,
+    "price": 4480,
+    "img": "https://images.nettiauto.com/live/2024/02/21/5e5a06eaf81c380e-largeThumbnail.jpg",
+    "url": "https://www.nettiauto.com/hyundai/i20/14140507"
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "E",
+    "year": 2016,
+    "mileage": 91000,
+    "price": 26900,
+    "img": "https://images.nettiauto.com/live/2024/02/16/58bf731156ffbec9-largeThumbnail.jpg",
+    "url": "https://www.nettiauto.com/mercedes-benz/e/14140506"
+  },
+  {
+    "make": "Toyota",
+    "model": "bZ4X",
+    "year": 2022,
+    "mileage": 21000,
+    "price": 58900,
+    "img": "https://images.nettiauto.com/live/2023/08/22/b397255acafd535f-largeThumbnail.jpg",
+    "url": "https://www.nettiauto.com/toyota/bz4x/14140505"
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Tiguan Allspace",
+    "year": 2020,
+    "mileage": 130000,
+    "price": 32900,
+    "img": "https://images.nettiauto.com/live/2024/01/26/0a0102263b167efc-largeThumbnail.jpg",
+    "url": "https://www.nettiauto.com/volkswagen/tiguan-allspace/14140503"
+  },
+  {
+    "make": "Nissan",
+    "model": "Qashqai",
+    "year": 2018,
+    "mileage": 64000,
+    "price": 16900,
+    "img": "https://images.nettiauto.com/live/2024/02/21/938068ebced34d4b-largeThumbnail.jpg",
+    "url": "https://www.nettiauto.com/nissan/qashqai/14140502"
+  },
+  {
+    "make": "Volvo",
+    "model": "V60",
+    "year": 2022,
+    "mileage": 65000,
+    "price": 36900,
+    "img": "https://images.nettiauto.com/live/2022/10/19/e77ab44f51c43f80-largeThumbnail.jpg",
+    "url": "https://www.nettiauto.com/volvo/v60/14140501"
+  }
+]

@@ -1,1 +1,1 @@
-Eduko school project by Aleksei Alehin & Ruslan Rumjantsev
+Eduko school project by Aleksei Alehin

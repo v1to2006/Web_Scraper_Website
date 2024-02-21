@@ -1,52 +1,9 @@
-import mysql.connector, re, time
+import re, time, json
 from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
-
-class Database:
-    def __init__(self, host, user, password, database_name):
-        self.host = host
-        self.user = user
-        self.password = password
-        self.database_name = database_name
-
-        self.connection = mysql.connector.connect(
-            host=self.host,
-            user=self.user,
-            password=self.password,
-            database=self.database_name
-        )
-
-    def insert_game_into_database(self, game):
-        cursor = self.connection.cursor()
-        insert_query = "INSERT INTO webscrap.games_game (name, release_date, reviews_count, positive_reviews_percent, metacritic_score, price, img, url) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)"
-        query_values = (
-            game.name,
-            game.release_date,
-            game.reviews_count,
-            game.positive_reviews_percent,
-            game.metacritic_score,
-            game.price,
-            game.img,
-            game.url
-        )
-        cursor.execute(insert_query, query_values)
-        self.connection.commit()
-
-    def truncate_table(self):
-        cursor = self.connection.cursor()
-        truncate_query = "TRUNCATE TABLE webscrap.games_game"
-        cursor.execute(truncate_query)
-        self.connection.commit()
-
-    def __del__(self):
-        if hasattr(self, 'connection') and self.connection.is_connected():
-            self.connection.close()
 
 class Game:
     def __init__(self, name, release_date, reviews_count, positive_reviews_percent, metacritic_score, price, img, url):
@@ -77,7 +34,7 @@ def find_games():
 
         for name_element, release_date, game_element, price, image, url in zip(name_elements, release_dates, game_elements, prices, images, urls):
             current_name = name_element.text
-            current_release_date = get_date_from_string(release_date.text)
+            current_release_date = release_date.text
             current_reviews_count = get_reviews_count(game_element["data-tooltip-html"])
             current_positive_reviews_percent = get_positive_reviews_percent(game_element["data-tooltip-html"])
 
@@ -116,11 +73,6 @@ def get_metacritic_score(game_url, driver):
 
     return 0
 
-def get_date_from_string(value):
-    cleaned_value = value.strip()
-    
-    return datetime.strptime(cleaned_value, "%d %b, %Y")
-
 def get_reviews_count(value):
     start_index = value.find("of the ") + len("of the ")
     end_index = value.find(" user reviews")
@@ -133,13 +85,15 @@ def get_positive_reviews_percent(value):
     
     return int(match.group(1))
 
+def save_to_json(filename):
+    with open(filename, 'w') as json_file:
+        game_list_data = [vars(game) for game in game_list]
+        json.dump(game_list_data, json_file, indent=2)
+       
+        print(f"Games results saved to {filename}")
+
 game_list = find_games()
 
-database = Database("localhost", "root", "", "webscrap")
-
-database.truncate_table()
-
-for game in game_list:
-    database.insert_game_into_database(game)
+save_to_json("C:/GitHub/Web/Web_Scraper_Project/Web_Scraper_Website/scrapers/results/games_results.json")
 
 print(f'Games scraped ({len(game_list)} found)')
