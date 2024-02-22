@@ -3,13 +3,12 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 
 class Car:
-    def __init__(self, make, model, year, mileage, price, img, url):
+    def __init__(self, make, model, year, mileage, price, url):
         self.make = make
         self.model = model
         self.year = year
         self.mileage = mileage
         self.price = price
-        self.img = img
         self.url = url
 
 def find_cars():
@@ -23,18 +22,16 @@ def find_cars():
         soup = BeautifulSoup(driver.page_source, "html.parser")
 
         car_elements = soup.find_all("a", class_="childVifUrl tricky_link")
-        car_images = soup.find_all("img", {'border': True})
         
-        for car, image in zip(car_elements, car_images):
+        for car in zip(car_elements):
             current_make = car["data-make"]
             current_model = car["data-model"]
             current_year = int(car["data-year"])
             current_mileage = int(car["data-mileage"])
             current_price = int(car["data-price"])
-            current_image = image["data-src"]
             current_url = car["href"]
             
-            cars.append(Car(current_make, current_model, current_year, current_mileage, current_price, current_image, current_url))
+            cars.append(Car(current_make, current_model, current_year, current_mileage, current_price, current_url))
 
     return cars
 

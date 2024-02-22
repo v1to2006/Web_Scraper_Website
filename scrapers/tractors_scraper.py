@@ -3,10 +3,9 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 
 class Tractor:
-    def __init__(self, name, price, img, url):
+    def __init__(self, name, price, url):
         self.name = name
         self.price = price
-        self.img = img
         self.url = url
 
 def find_tractors():
@@ -21,9 +20,8 @@ def find_tractors():
 
         tractor_elements = soup.find_all("a", class_="childVifUrl tricky_link")
         tractor_prices = soup.find_all("div", class_="main_price")
-        tractor_images = soup.find_all("img", {'border': True})
         
-        for tractor_element, price, image in zip(tractor_elements, tractor_prices, tractor_images):
+        for tractor_element, price in zip(tractor_elements, tractor_prices):
             current_name = tractor_element.text
             
             if price.text.replace('\u20ac', '').replace(' ', '') == "Eihinnoiteltu":
@@ -31,10 +29,9 @@ def find_tractors():
             else:
                 current_price = float(price.text.replace('\u20ac', '').replace(' ', ''))
             
-            current_image = image["data-src"]
             current_url = tractor_element["href"]
             
-            tractors.append(Tractor(current_name, current_price, current_image, current_url))
+            tractors.append(Tractor(current_name, current_price, current_url))
 
     return tractors
 
