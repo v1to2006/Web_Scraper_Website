@@ -1,15 +1,105 @@
 [
   {
-    "name": "Branson TYM F50Rn, 49 hv, 12/12-vaihteisto",
-    "price": 26401.0,
-    "img": "https://images.nettikone.com/live/2021/02/07/036b6ed3a112a567-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/branson/tym-f50rn-49-hv-12-12-vaihteisto/2016417"
+    "name": "Branson TYM 2500HL, 24,5 hv, HST, 4WD",
+    "price": 17906.0,
+    "img": "https://images.nettikone.com/live/2020/10/08/91327fa79ff8dcfb-largeThumbnail.jpg",
+    "url": "https://www.nettikone.com/branson/tym-2500hl-245-hv-hst-4wd/1981954"
   },
   {
-    "name": "Solis 26XL 4wd 9+9",
-    "price": 19990.0,
-    "img": "https://images.nettikone.com/live/2024/01/13/91e08eafc9ccd451-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/solis/26xl-4wd-9+9/2364224"
+    "name": "Valmet 502 Traktori, k\u00e4ytetty",
+    "price": 6700.0,
+    "img": "https://images.nettikone.com/live/2024/01/29/61255138e2d600da-largeThumbnail.jpg",
+    "url": "https://www.nettikone.com/valmet/502-traktori-kaytetty/2368834"
+  },
+  {
+    "name": "Valtra Q285 1A9",
+    "price": 0,
+    "img": "https://images.nettikone.com/live/2024/02/22/934e2765174a8d25-largeThumbnail.jpg",
+    "url": "https://www.nettikone.com/valtra/q285-1a9/2378395"
+  },
+  {
+    "name": "Valtra N155EA",
+    "price": 0,
+    "img": "https://images.nettikone.com/live/2024/02/22/8b2493af16eab794-largeThumbnail.jpg",
+    "url": "https://www.nettikone.com/valtra/n155ea/2378394"
+  },
+  {
+    "name": "Valtra N141",
+    "price": 52000.0,
+    "img": "https://images.nettikone.com/live/2024/02/22/fbcde8a0e157de59-largeThumbnail.jpg",
+    "url": "https://www.nettikone.com/valtra/n141/2378393"
+  },
+  {
+    "name": "Muu merkki 605 GLOX",
+    "price": 22940.0,
+    "img": "https://images.nettikone.com/live/2024/02/22/5bb95a170d7382c4-largeThumbnail.jpg",
+    "url": "https://www.nettikone.com/muu-merkki/605-glox/2378355"
+  },
+  {
+    "name": "Case IH Maxxum 115",
+    "price": 88000.0,
+    "img": "https://images.nettikone.com/live/2024/02/22/d823e230ac3f77d1-largeThumbnail.jpg",
+    "url": "https://www.nettikone.com/case-ih/maxxum-115/2378278"
+  },
+  {
+    "name": "Ford 6600",
+    "price": 7000.0,
+    "img": "https://images.nettikone.com/live/2024/02/22/3a62b4712e31c367-largeThumbnail.jpg",
+    "url": "https://www.nettikone.com/ford/6600/2378250"
+  },
+  {
+    "name": "John Deere 3045R",
+    "price": 46996.0,
+    "img": "https://images.nettikone.com/live/2024/02/21/27945b1c65658742-largeThumbnail.jpg",
+    "url": "https://www.nettikone.com/john-deere/3045r/2378234"
+  },
+  {
+    "name": "Valmet 805 GLOX",
+    "price": 27900.0,
+    "img": "https://images.nettikone.com/live/2024/02/21/b7c3a9388a0fb9e9-largeThumbnail.jpg",
+    "url": "https://www.nettikone.com/valmet/805-glox/2378220"
+  },
+  {
+    "name": "International Mccormik ",
+    "price": 2750.0,
+    "img": "https://images.nettikone.com/live/2024/02/21/df9d2bb5bfe4a109-largeThumbnail.jpg",
+    "url": "https://www.nettikone.com/international/mccormik/2378209"
+  },
+  {
+    "name": "New Holland 6020 plus",
+    "price": 44500.0,
+    "img": "https://images.nettikone.com/live/2024/02/21/cec77fc79261e988-largeThumbnail.jpg",
+    "url": "https://www.nettikone.com/new-holland/6020-plus/2378188"
+  },
+  {
+    "name": "Zetor 6711",
+    "price": 6800.0,
+    "img": "https://images.nettikone.com/live/2024/02/21/0443f22864cc99fb-largeThumbnail.jpg",
+    "url": "https://www.nettikone.com/zetor/6711/2378166"
+  },
+  {
+    "name": "Ford 3000",
+    "price": 5599.0,
+    "img": "https://images.nettikone.com/live/2024/01/13/b9cde69c46dd7dfb-largeThumbnail.jpg",
+    "url": "https://www.nettikone.com/ford/3000/2378153"
+  },
+  {
+    "name": "Massey Ferguson 4255",
+    "price": 31500.0,
+    "img": "https://images.nettikone.com/live/2024/02/21/5dbc8a6d4f35d322-largeThumbnail.jpg",
+    "url": "https://www.nettikone.com/massey-ferguson/4255/2378151"
+  },
+  {
+    "name": "David Brown 990",
+    "price": 750.0,
+    "img": "https://images.nettikone.com/live/2023/11/04/0e8b0cbb8a075e3a-largeThumbnail.jpg",
+    "url": "https://www.nettikone.com/david-brown/990/2378122"
+  },
+  {
+    "name": "Valtra T174 Direct + V76 -etukuormain",
+    "price": 109616.0,
+    "img": "https://images.nettikone.com/live/2024/02/21/0bf5bf69886d9e41-largeThumbnail.jpg",
+    "url": "https://www.nettikone.com/valtra/t174-direct-+-v76-etukuormain/2378120"
   },
   {
     "name": "Valtra T 153 V",
@@ -48,12 +138,6 @@
     "url": "https://www.nettikone.com/massey-ferguson/35/2378028"
   },
   {
-    "name": "Zetor 3011",
-    "price": 2650.0,
-    "img": "https://images.nettikone.com/live/2024/02/21/9e432a9deffb890e-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/zetor/3011/2378022"
-  },
-  {
     "name": "McCormick X7.670",
     "price": 62500.0,
     "img": "https://images.nettikone.com/live/2024/02/21/2bc24c1ab0c8e2f1-largeThumbnail.jpg",
@@ -90,12 +174,6 @@
     "url": "https://www.nettikone.com/ford/4000/2377879"
   },
   {
-    "name": "Valmet 565",
-    "price": 4800.0,
-    "img": "https://images.nettikone.com/live/2024/02/20/365233366ffb01d0-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/valmet/565/2377877"
-  },
-  {
     "name": "Nuffield 3/45",
     "price": 2350.0,
     "img": "https://images.nettikone.com/live/2024/02/20/5562d5666daba358-largeThumbnail.jpg",
@@ -112,83 +190,5 @@
     "price": 0,
     "img": "https://images.nettikone.com/live/2024/02/20/2087a77e0efc5137-largeThumbnail.jpg",
     "url": "https://www.nettikone.com/fendt/942-vario-gen7/2377852"
-  },
-  {
-    "name": "Fendt 211 V Vario Gen3",
-    "price": 0,
-    "img": "https://images.nettikone.com/live/2023/10/27/277d93e91117ea12-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/fendt/211-v-vario-gen3/2377851"
-  },
-  {
-    "name": "Valtra A94",
-    "price": 59900.0,
-    "img": "https://images.nettikone.com/live/2023/11/08/c2d84afed1c5fee5-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/valtra/a94/2377850"
-  },
-  {
-    "name": "New Holland M160",
-    "price": 39900.0,
-    "img": "https://images.nettikone.com/live/2023/06/28/cdadd4effaa9424d-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/new-holland/m160/2377849"
-  },
-  {
-    "name": "Valtra T174",
-    "price": 89800.0,
-    "img": "https://images.nettikone.com/live/2024/02/20/c37e74629f03e676-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/valtra/t174/2377847"
-  },
-  {
-    "name": "John Deere 6320",
-    "price": 54500.0,
-    "img": "https://images.nettikone.com/live/2024/01/31/5866635456b525c6-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/john-deere/6320/2377844"
-  },
-  {
-    "name": "Case IH 685",
-    "price": 6900.0,
-    "img": "https://images.nettikone.com/live/2024/02/20/ada858ee43fac1c0-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/case-ih/685/2377843"
-  },
-  {
-    "name": "Valmet 665",
-    "price": 23500.0,
-    "img": "https://images.nettikone.com/live/2024/02/02/7f2dc98b3dd090e4-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/valmet/665/2377834"
-  },
-  {
-    "name": "Valmet 702S",
-    "price": 6900.0,
-    "img": "https://images.nettikone.com/live/2024/02/20/129e0464acd9ab18-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/valmet/702s/2377829"
-  },
-  {
-    "name": "International 844 S",
-    "price": 8900.0,
-    "img": "https://images.nettikone.com/live/2024/02/20/75064ae3caba006a-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/international/844-s/2377828"
-  },
-  {
-    "name": "Valmet Volvo BM Valmet 705-2",
-    "price": 15950.0,
-    "img": "https://images.nettikone.com/live/2024/01/31/be6e833a0dd5db54-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/valmet/volvo-bm-valmet-705-2/2377826"
-  },
-  {
-    "name": "Ford 5610",
-    "price": 7900.0,
-    "img": "https://images.nettikone.com/live/2024/02/20/46bbd65bd2873813-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/ford/5610/2377793"
-  },
-  {
-    "name": "Massey Ferguson 240-2",
-    "price": 8900.0,
-    "img": "https://images.nettikone.com/live/2024/02/20/446ab2176d991a82-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/massey-ferguson/240-2/2377784"
-  },
-  {
-    "name": "Case IH Magnum 7130",
-    "price": 34720.0,
-    "img": "https://images.nettikone.com/live/2024/02/20/eb34be5fe0e8e294-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/case-ih/magnum-7130/2377778"
   }
 ]

@@ -1,7 +1,5 @@
 import time, json
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service as ChromeService
-from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 
 class Tractor:
@@ -14,7 +12,7 @@ class Tractor:
 def find_tractors():
     tractors = []
 
-    with webdriver.Chrome(service=ChromeService(ChromeDriverManager().install())) as driver:
+    with webdriver.Chrome() as driver:
         url = 'https://www.nettikone.com/maatalouskoneet/traktorit?id_country[]=73'
 
         driver.get(url)

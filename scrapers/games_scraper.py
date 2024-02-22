@@ -1,8 +1,5 @@
 import re, time, json
-from datetime import datetime
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service as ChromeService
-from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 
 class Game:
@@ -20,7 +17,7 @@ def find_games():
     games = []
     main_url = 'https://store.steampowered.com/search/?sort_by=Released_DESC&category1=998&os=win&supportedlang=english%2Crussian%2Cfinnish&filter=popularnew&ndl=1'
 
-    with webdriver.Chrome(service=ChromeService(ChromeDriverManager().install())) as driver:
+    with webdriver.Chrome() as driver:
         driver.get(main_url)
         time.sleep(0.1)
         soup = BeautifulSoup(driver.page_source, "html.parser")
