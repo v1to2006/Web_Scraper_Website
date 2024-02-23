@@ -1,15 +1,9 @@
 import json
-import time
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
 from bs4 import BeautifulSoup
 
 STEAM_SEARCH_URL = 'https://store.steampowered.com/search/?sort_by=Released_DESC&category1=998&os=win&supportedlang=english%2Crussian%2Cfinnish&filter=popularnew&ndl=1'
 STEAM_GAME_URL = 'https://store.steampowered.com/app/{}/'
-
-SELECTORS = {
-    'age_verification_form': 'form.agegate_text_container',
-}
 
 class Game:
     def __init__(self, title, release_date, metacritic_score, price, url):
@@ -21,18 +15,23 @@ class Game:
 
 def main():
     with webdriver.Chrome() as driver:
+        add_birthday_cookie(driver)
         games = [get_game_data(driver, game_id) for game_id in get_games_ids(driver)]
 
         save_to_json("C:/GitHub/Web/Web_Scraper_Project/Web_Scraper_Website/scrapers/results/games_results.json", games)
         print(f'Games scraped ({len(games)} found)')
+
+def add_birthday_cookie(driver):
+    driver.get("https://store.steampowered.com")
+    cookie = {'name': 'birthtime', 'value': '0', 'path': '/', 'max-age': 315360000}
+    driver.add_cookie(cookie)
 
 def get_games_ids(driver):
     soup = get_page_soup(driver, STEAM_SEARCH_URL)
     return [game_element.get("data-ds-appid") for game_element in soup.find_all('a', {'data-ds-appid': True})]
 
 def get_game_data(driver, game_id):
-    handle_age_verification(driver, game_id)
-    soup = get_page_soup(driver, f'https://{STEAM_GAME_URL.format(game_id)}')
+    soup = get_page_soup(driver, f'{STEAM_GAME_URL.format(game_id)}')
 
     title = get_text_content(soup, 'div.apphub_AppName') or "N/A"
     release_date = get_text_content(soup, 'div.release_date div.date') or "N/A"
@@ -44,25 +43,8 @@ def get_game_data(driver, game_id):
 
 def get_page_soup(driver, url):
     driver.get(url)
-    time.sleep(0)
+    
     return BeautifulSoup(driver.page_source, "html.parser")
-
-def handle_age_verification(driver, game_id):
-    driver.get(f'https://store.steampowered.com/app/{game_id}/')
-    time.sleep(0)
-    if is_age_verification_required(driver):
-        fill_and_submit_age_verification(driver)
-
-def is_age_verification_required(driver):
-    return "Please enter your birth date to continue:" in driver.page_source
-
-def fill_and_submit_age_verification(driver):
-    form = driver.find_element_by_css_selector(SELECTORS['age_verification_form'])
-    for input_name, value in [('ageDay', '01'), ('ageMonth', '01'), ('ageYear', '1990')]:
-        form.find_element_by_name(input_name).send_keys(value)
-
-    form.find_element_by_name('ageYear').send_keys(Keys.RETURN)
-    time.sleep(0)
 
 def get_text_content(soup, selector):
     element = soup.select_one(selector)

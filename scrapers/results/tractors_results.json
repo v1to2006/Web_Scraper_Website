@@ -1,194 +1,162 @@
 [
   {
-    "name": "Branson TYM 2500HL, 24,5 hv, HST, 4WD",
-    "price": 17906.0,
-    "img": "https://images.nettikone.com/live/2020/10/08/91327fa79ff8dcfb-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/branson/tym-2500hl-245-hv-hst-4wd/1981954"
+    "name": "Branson TYM 5025C, 49 hv, 12/12-vaihteisto, 4WD",
+    "price": 36523.0,
+    "url": "https://www.nettikone.com/branson/tym-5025c-49-hv-12-12-vaihteisto-4wd/2014539"
   },
   {
-    "name": "Valmet 502 Traktori, k\u00e4ytetty",
+    "name": "Branson TYM F25Rn, 25 hv, 12/12-vaihteisto",
+    "price": 23188.0,
+    "url": "https://www.nettikone.com/branson/tym-f25rn-25-hv-12-12-vaihteisto/2016413"
+  },
+  {
+    "name": "Ford 7600",
+    "price": 7900.0,
+    "url": "https://www.nettikone.com/ford/7600/2378885"
+  },
+  {
+    "name": "Valmet 502 e",
     "price": 6700.0,
-    "img": "https://images.nettikone.com/live/2024/01/29/61255138e2d600da-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/valmet/502-traktori-kaytetty/2368834"
+    "url": "https://www.nettikone.com/valmet/502-e/2378869"
+  },
+  {
+    "name": "Valtra 6300 Mezzo",
+    "price": 51900.0,
+    "url": "https://www.nettikone.com/valtra/6300-mezzo/2378835"
+  },
+  {
+    "name": "John Deere 6620",
+    "price": 46500.0,
+    "url": "https://www.nettikone.com/john-deere/6620/2378814"
+  },
+  {
+    "name": "Valtra N92",
+    "price": 39800.0,
+    "url": "https://www.nettikone.com/valtra/n92/2378802"
+  },
+  {
+    "name": "Case IH Farmall 75 C aj. 1402h",
+    "price": 46996.0,
+    "url": "https://www.nettikone.com/case-ih/farmall-75-c-aj-1402h/2378745"
+  },
+  {
+    "name": "Valtra T 254 Versu",
+    "price": 148552.0,
+    "url": "https://www.nettikone.com/valtra/t-254-versu/2378716"
+  },
+  {
+    "name": "Valmet 502",
+    "price": 6700.0,
+    "url": "https://www.nettikone.com/valmet/502/2378697"
+  },
+  {
+    "name": "Belarus 920",
+    "price": 18000.0,
+    "url": "https://www.nettikone.com/belarus/920/2378692"
+  },
+  {
+    "name": "Valtra A115MH4",
+    "price": 0,
+    "url": "https://www.nettikone.com/valtra/a115mh4/2378651"
+  },
+  {
+    "name": "Valtra N141",
+    "price": 55000.0,
+    "url": "https://www.nettikone.com/valtra/n141/2378647"
+  },
+  {
+    "name": "Valtra A95",
+    "price": 29500.0,
+    "url": "https://www.nettikone.com/valtra/a95/2378646"
+  },
+  {
+    "name": "Massey Ferguson 575",
+    "price": 6800.0,
+    "url": "https://www.nettikone.com/massey-ferguson/575/2378628"
+  },
+  {
+    "name": "John Deere 6155R ULTIMATE",
+    "price": 132000.0,
+    "url": "https://www.nettikone.com/john-deere/6155r-ultimate/2378620"
+  },
+  {
+    "name": "Massey Ferguson 65",
+    "price": 4800.0,
+    "url": "https://www.nettikone.com/massey-ferguson/65/2378605"
+  },
+  {
+    "name": "Ford 7610 Mk2 ",
+    "price": 13500.0,
+    "url": "https://www.nettikone.com/ford/7610-mk2/2378595"
+  },
+  {
+    "name": "New Holland L90",
+    "price": 24304.0,
+    "url": "https://www.nettikone.com/new-holland/l90/2378590"
+  },
+  {
+    "name": "John Deere 6534 + Kuormaaja",
+    "price": 62950.0,
+    "url": "https://www.nettikone.com/john-deere/6534-+-kuormaaja/2378587"
+  },
+  {
+    "name": "Valmet 8400 + Kuormaaja",
+    "price": 33000.0,
+    "url": "https://www.nettikone.com/valmet/8400-+-kuormaaja/2378584"
+  },
+  {
+    "name": "Valmet 502E",
+    "price": 4950.0,
+    "url": "https://www.nettikone.com/valmet/502e/2378531"
+  },
+  {
+    "name": "Valtra N175D",
+    "price": 0,
+    "url": "https://www.nettikone.com/valtra/n175d/2378528"
+  },
+  {
+    "name": "Valtra T155",
+    "price": 139000.0,
+    "url": "https://www.nettikone.com/valtra/t155/2378524"
+  },
+  {
+    "name": "Belarus 826 agross",
+    "price": 10900.0,
+    "url": "https://www.nettikone.com/belarus/826-agross/2378522"
+  },
+  {
+    "name": "New Holland TL90",
+    "price": 31500.0,
+    "url": "https://www.nettikone.com/new-holland/tl90/2378501"
+  },
+  {
+    "name": "Fendt Farmer 307LSA 4x4",
+    "price": 0,
+    "url": "https://www.nettikone.com/fendt/farmer-307lsa-4x4/2378464"
   },
   {
     "name": "Valtra Q285 1A9",
     "price": 0,
-    "img": "https://images.nettikone.com/live/2024/02/22/934e2765174a8d25-largeThumbnail.jpg",
     "url": "https://www.nettikone.com/valtra/q285-1a9/2378395"
   },
   {
     "name": "Valtra N155EA",
     "price": 0,
-    "img": "https://images.nettikone.com/live/2024/02/22/8b2493af16eab794-largeThumbnail.jpg",
     "url": "https://www.nettikone.com/valtra/n155ea/2378394"
   },
   {
     "name": "Valtra N141",
     "price": 52000.0,
-    "img": "https://images.nettikone.com/live/2024/02/22/fbcde8a0e157de59-largeThumbnail.jpg",
     "url": "https://www.nettikone.com/valtra/n141/2378393"
   },
   {
     "name": "Muu merkki 605 GLOX",
     "price": 22940.0,
-    "img": "https://images.nettikone.com/live/2024/02/22/5bb95a170d7382c4-largeThumbnail.jpg",
     "url": "https://www.nettikone.com/muu-merkki/605-glox/2378355"
   },
   {
     "name": "Case IH Maxxum 115",
     "price": 88000.0,
-    "img": "https://images.nettikone.com/live/2024/02/22/d823e230ac3f77d1-largeThumbnail.jpg",
     "url": "https://www.nettikone.com/case-ih/maxxum-115/2378278"
-  },
-  {
-    "name": "Ford 6600",
-    "price": 7000.0,
-    "img": "https://images.nettikone.com/live/2024/02/22/3a62b4712e31c367-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/ford/6600/2378250"
-  },
-  {
-    "name": "John Deere 3045R",
-    "price": 46996.0,
-    "img": "https://images.nettikone.com/live/2024/02/21/27945b1c65658742-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/john-deere/3045r/2378234"
-  },
-  {
-    "name": "Valmet 805 GLOX",
-    "price": 27900.0,
-    "img": "https://images.nettikone.com/live/2024/02/21/b7c3a9388a0fb9e9-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/valmet/805-glox/2378220"
-  },
-  {
-    "name": "International Mccormik ",
-    "price": 2750.0,
-    "img": "https://images.nettikone.com/live/2024/02/21/df9d2bb5bfe4a109-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/international/mccormik/2378209"
-  },
-  {
-    "name": "New Holland 6020 plus",
-    "price": 44500.0,
-    "img": "https://images.nettikone.com/live/2024/02/21/cec77fc79261e988-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/new-holland/6020-plus/2378188"
-  },
-  {
-    "name": "Zetor 6711",
-    "price": 6800.0,
-    "img": "https://images.nettikone.com/live/2024/02/21/0443f22864cc99fb-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/zetor/6711/2378166"
-  },
-  {
-    "name": "Ford 3000",
-    "price": 5599.0,
-    "img": "https://images.nettikone.com/live/2024/01/13/b9cde69c46dd7dfb-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/ford/3000/2378153"
-  },
-  {
-    "name": "Massey Ferguson 4255",
-    "price": 31500.0,
-    "img": "https://images.nettikone.com/live/2024/02/21/5dbc8a6d4f35d322-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/massey-ferguson/4255/2378151"
-  },
-  {
-    "name": "David Brown 990",
-    "price": 750.0,
-    "img": "https://images.nettikone.com/live/2023/11/04/0e8b0cbb8a075e3a-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/david-brown/990/2378122"
-  },
-  {
-    "name": "Valtra T174 Direct + V76 -etukuormain",
-    "price": 109616.0,
-    "img": "https://images.nettikone.com/live/2024/02/21/0bf5bf69886d9e41-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/valtra/t174-direct-+-v76-etukuormain/2378120"
-  },
-  {
-    "name": "Valtra T 153 V",
-    "price": 69990.0,
-    "img": "https://images.nettikone.com/live/2024/02/21/e5b3baef525dbfdc-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/valtra/t-153-v/2378107"
-  },
-  {
-    "name": "Case JX90",
-    "price": 33500.0,
-    "img": "https://images.nettikone.com/live/2024/02/21/ff2b5bc63c9d5d6a-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/case/jx90/2378095"
-  },
-  {
-    "name": "Nuffield Universal Four",
-    "price": 2500.0,
-    "img": "https://images.nettikone.com/live/2024/02/21/20507447fc8b8bf2-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/nuffield/universal-four/2378067"
-  },
-  {
-    "name": "Valmet 755 GLOX Hi-Troll + Kuormaaja",
-    "price": 27950.0,
-    "img": "https://images.nettikone.com/live/2024/02/21/b7fbbed71998ef83-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/valmet/755-glox-hi-troll-+-kuormaaja/2378061"
-  },
-  {
-    "name": "Valmet 665 + Kuormaaja",
-    "price": 23950.0,
-    "img": "https://images.nettikone.com/live/2024/02/21/7fd38115bf1dfe62-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/valmet/665-+-kuormaaja/2378051"
-  },
-  {
-    "name": "Massey Ferguson 35",
-    "price": 3900.0,
-    "img": "https://images.nettikone.com/live/2024/02/21/44bbf16bae828b10-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/massey-ferguson/35/2378028"
-  },
-  {
-    "name": "McCormick X7.670",
-    "price": 62500.0,
-    "img": "https://images.nettikone.com/live/2024/02/21/2bc24c1ab0c8e2f1-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/mccormick/x7670/2377958"
-  },
-  {
-    "name": "Valtra N101 Hitech Rahoitus vaihto ",
-    "price": 43000.0,
-    "img": "https://images.nettikone.com/live/2024/02/21/861d5379acfbc218-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/valtra/n101-hitech-rahoitus-vaihto/2377954"
-  },
-  {
-    "name": "New Holland TM 190 PC Etunostolaite voimanotto Etukuormain",
-    "price": 47999.0,
-    "img": "https://images.nettikone.com/live/2024/02/21/02710fada612ac86-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/new-holland/tm-190-pc-etunostolaite-voimanotto-etukuormain/2377947"
-  },
-  {
-    "name": "Valtra A 95",
-    "price": 29512.0,
-    "img": "https://images.nettikone.com/live/2024/02/21/e7d08d573abe53db-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/valtra/a-95/2377921"
-  },
-  {
-    "name": "Valtra T191 Advance Valtra 75 etukuormaaja",
-    "price": 47120.0,
-    "img": "https://images.nettikone.com/live/2024/02/21/8571eeb7ba4c3444-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/valtra/t191-advance-valtra-75-etukuormaaja/2377912"
-  },
-  {
-    "name": "Ford 4000 ",
-    "price": 6900.0,
-    "img": "https://images.nettikone.com/live/2024/02/20/d677a0c4e1a295e8-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/ford/4000/2377879"
-  },
-  {
-    "name": "Nuffield 3/45",
-    "price": 2350.0,
-    "img": "https://images.nettikone.com/live/2024/02/20/5562d5666daba358-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/nuffield/3-45/2377865"
-  },
-  {
-    "name": "Kubota L2550D 4X4",
-    "price": 0,
-    "img": "https://images.nettikone.com/live/2024/02/20/0d34ae916b429079-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/kubota/l2550d-4x4/2377863"
-  },
-  {
-    "name": "Fendt 942 Vario Gen7",
-    "price": 0,
-    "img": "https://images.nettikone.com/live/2024/02/20/2087a77e0efc5137-largeThumbnail.jpg",
-    "url": "https://www.nettikone.com/fendt/942-vario-gen7/2377852"
   }
 ]

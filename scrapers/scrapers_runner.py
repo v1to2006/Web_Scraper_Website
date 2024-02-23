@@ -7,8 +7,5 @@ def run_scraper(scraper):
 
 scrapers = ['cars_scraper.py', 'tractors_scraper.py', 'games_scraper.py']
 
-while True:
-    for scraper in scrapers:
-        run_scraper(scraper)
-    
-    time.sleep(3600)
+for scraper in scrapers:
+    run_scraper(scraper)

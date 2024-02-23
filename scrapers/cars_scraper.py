@@ -23,7 +23,7 @@ def find_cars():
 
         car_elements = soup.find_all("a", class_="childVifUrl tricky_link")
         
-        for car in zip(car_elements):
+        for car in car_elements:
             current_make = car["data-make"]
             current_model = car["data-model"]
             current_year = int(car["data-year"])
