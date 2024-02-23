@@ -1,434 +1,352 @@
 [
   {
-    "name": "Garden Life: A Cozy Simulator",
-    "release_date": "\n                    22 Feb, 2024                ",
-    "reviews_count": 51,
-    "positive_reviews_percent": 82,
-    "metacritic_score": 0,
+    "title": "Solium Infernum",
+    "release_date": "22 Feb, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "url": "store.steampowered.com/app/1893810/"
+  },
+  {
+    "title": "Bootstrap Island",
+    "release_date": "22 Feb, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "url": "store.steampowered.com/app/1942110/"
+  },
+  {
+    "title": "Sons Of The Forest",
+    "release_date": "22 Feb, 2024",
+    "metacritic_score": "N/A",
+    "price": 28.99,
+    "url": "store.steampowered.com/app/1326470/"
+  },
+  {
+    "title": "Regency Solitaire II",
+    "release_date": "22 Feb, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "url": "store.steampowered.com/app/2137470/"
+  },
+  {
+    "title": "Death From Above",
+    "release_date": "22 Feb, 2024",
+    "metacritic_score": "N/A",
+    "price": 11.77,
+    "url": "store.steampowered.com/app/2300160/"
+  },
+  {
+    "title": "The Tribe Must Survive",
+    "release_date": "22 Feb, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "url": "store.steampowered.com/app/1729940/"
+  },
+  {
+    "title": "Garden Life: A Cozy Simulator",
+    "release_date": "22 Feb, 2024",
+    "metacritic_score": "N/A",
     "price": 24.99,
-    "url": "https://store.steampowered.com/app/1915380/Garden_Life_A_Cozy_Simulator/?snr=1_7_7_popularnew_150_1"
+    "url": "store.steampowered.com/app/1915380/"
   },
   {
-    "name": "Pacific Drive",
-    "release_date": "\n                    21 Feb, 2024                ",
-    "reviews_count": 27,
-    "positive_reviews_percent": 92,
-    "metacritic_score": 0,
-    "price": 26.99,
-    "url": "https://store.steampowered.com/app/1458140/Pacific_Drive/?snr=1_7_7_popularnew_150_1"
-  },
-  {
-    "name": "Yohane the Parhelion - NUMAZU in the MIRAGE -",
-    "release_date": "\n                    21 Feb, 2024                ",
-    "reviews_count": 8104,
-    "positive_reviews_percent": 75,
-    "metacritic_score": 0,
-    "price": 29.99,
-    "url": "https://store.steampowered.com/app/2459750/Yohane_the_Parhelion__NUMAZU_in_the_MIRAGE/?snr=1_7_7_popularnew_150_1"
-  },
-  {
-    "name": "Myth of Empires",
-    "release_date": "\n                    21 Feb, 2024                ",
-    "reviews_count": 32315,
-    "positive_reviews_percent": 83,
-    "metacritic_score": 0,
-    "price": 35.09,
-    "url": "https://store.steampowered.com/app/1371580/Myth_of_Empires/?snr=1_7_7_popularnew_150_1"
-  },
-  {
-    "name": "Last Epoch",
-    "release_date": "\n                    21 Feb, 2024                ",
-    "reviews_count": 124,
-    "positive_reviews_percent": 90,
-    "metacritic_score": 82,
-    "price": 33.99,
-    "url": "https://store.steampowered.com/app/899770/Last_Epoch/?snr=1_7_7_popularnew_150_1"
-  },
-  {
-    "name": "Bandle Tale: A League of Legends Story",
-    "release_date": "\n                    21 Feb, 2024                ",
-    "reviews_count": 158,
-    "positive_reviews_percent": 74,
-    "metacritic_score": 0,
-    "price": 24.99,
-    "url": "https://store.steampowered.com/app/1759380/Bandle_Tale_A_League_of_Legends_Story/?snr=1_7_7_popularnew_150_1"
-  },
-  {
-    "name": "Terminator: Dark Fate - Defiance",
-    "release_date": "\n                    21 Feb, 2024                ",
-    "reviews_count": 101,
-    "positive_reviews_percent": 82,
-    "metacritic_score": 0,
-    "price": 35.09,
-    "url": "https://store.steampowered.com/app/1839950/Terminator_Dark_Fate__Defiance/?snr=1_7_7_popularnew_150_1"
-  },
-  {
-    "name": "Penny\u2019s Big Breakaway",
-    "release_date": "\n                    21 Feb, 2024                ",
-    "reviews_count": 355,
-    "positive_reviews_percent": 94,
-    "metacritic_score": 0,
-    "price": 29.99,
-    "url": "https://store.steampowered.com/app/1955230/Pennys_Big_Breakaway/?snr=1_7_7_popularnew_150_1"
-  },
-  {
-    "name": "Supermarket Simulator",
-    "release_date": "\n                    20 Feb, 2024                ",
-    "reviews_count": 3686,
-    "positive_reviews_percent": 98,
-    "metacritic_score": 0,
-    "price": 10.39,
-    "url": "https://store.steampowered.com/app/2670630/Supermarket_Simulator/?snr=1_7_7_popularnew_150_1"
-  },
-  {
-    "name": "Nightingale",
-    "release_date": "\n                    20 Feb, 2024                ",
-    "reviews_count": 1029,
-    "positive_reviews_percent": 75,
-    "metacritic_score": 0,
-    "price": 26.09,
-    "url": "https://store.steampowered.com/app/1928980/Nightingale/?snr=1_7_7_popularnew_150_1"
-  },
-  {
-    "name": "Balatro",
-    "release_date": "\n                    20 Feb, 2024                ",
-    "reviews_count": 119,
-    "positive_reviews_percent": 97,
-    "metacritic_score": 94,
-    "price": 12.59,
-    "url": "https://store.steampowered.com/app/2379780/Balatro/?snr=1_7_7_popularnew_150_1"
-  },
-  {
-    "name": "Le Mans Ultimate",
-    "release_date": "\n                    20 Feb, 2024                ",
-    "reviews_count": 469,
-    "positive_reviews_percent": 99,
-    "metacritic_score": 0,
-    "price": 29.99,
-    "url": "https://store.steampowered.com/app/2399420/Le_Mans_Ultimate/?snr=1_7_7_popularnew_150_1"
-  },
-  {
-    "name": "Free Stars: The Ur-Quan Masters",
-    "release_date": "\n                    19 Feb, 2024                ",
-    "reviews_count": 2035,
-    "positive_reviews_percent": 99,
-    "metacritic_score": 0,
-    "price": 0.0,
-    "url": "https://store.steampowered.com/app/2645580/Free_Stars_The_UrQuan_Masters/?snr=1_7_7_popularnew_150_1"
-  },
-  {
-    "name": "Please, Touch The Artwork 2",
-    "release_date": "\n                    19 Feb, 2024                ",
-    "reviews_count": 388,
-    "positive_reviews_percent": 70,
-    "metacritic_score": 0,
-    "price": 0.0,
-    "url": "https://store.steampowered.com/app/2600140/Please_Touch_The_Artwork_2/?snr=1_7_7_popularnew_150_1"
-  },
-  {
-    "name": "20 Small Mazes",
-    "release_date": "\n                    16 Feb, 2024                ",
-    "reviews_count": 741,
-    "positive_reviews_percent": 97,
-    "metacritic_score": 0,
-    "price": 0.0,
-    "url": "https://store.steampowered.com/app/2570630/20_Small_Mazes/?snr=1_7_7_popularnew_150_1"
-  },
-  {
-    "name": "Caribbean Legend",
-    "release_date": "\n                    15 Feb, 2024                ",
-    "reviews_count": 5012,
-    "positive_reviews_percent": 86,
-    "metacritic_score": 0,
-    "price": 21.74,
-    "url": "https://store.steampowered.com/app/2230980/Caribbean_Legend/?snr=1_7_7_popularnew_150_1"
-  },
-  {
-    "name": "Goat Simulator 3",
-    "release_date": "\n                    15 Feb, 2024                ",
-    "reviews_count": 9654,
-    "positive_reviews_percent": 84,
-    "metacritic_score": 0,
-    "price": 19.49,
-    "url": "https://store.steampowered.com/app/850190/Goat_Simulator_3/?snr=1_7_7_popularnew_150_1"
-  },
-  {
-    "name": "Smalland: Survive the Wilds",
-    "release_date": "\n                    15 Feb, 2024                ",
-    "reviews_count": 2209,
-    "positive_reviews_percent": 87,
-    "metacritic_score": 0,
-    "price": 29.74,
-    "url": "https://store.steampowered.com/app/768200/Smalland_Survive_the_Wilds/?snr=1_7_7_popularnew_150_1"
-  },
-  {
-    "name": "Deep Rock Galactic: Survivor",
-    "release_date": "\n                    14 Feb, 2024                ",
-    "reviews_count": 498,
-    "positive_reviews_percent": 83,
-    "metacritic_score": 0,
+    "title": "Rail Route",
+    "release_date": "22 Feb, 2024",
+    "metacritic_score": "N/A",
     "price": 9.99,
-    "url": "https://store.steampowered.com/app/2321470/Deep_Rock_Galactic_Survivor/?snr=1_7_7_popularnew_150_1"
+    "url": "store.steampowered.com/app/1124180/"
   },
   {
-    "name": "Tomb Raider I-III Remastered Starring Lara Croft",
-    "release_date": "\n                    13 Feb, 2024                ",
-    "reviews_count": 140,
-    "positive_reviews_percent": 88,
-    "metacritic_score": 0,
-    "price": 28.99,
-    "url": "https://store.steampowered.com/app/2478970/Tomb_Raider_IIII_Remastered_Starring_Lara_Croft/?snr=1_7_7_popularnew_150_1"
+    "title": "Pacific Drive",
+    "release_date": "22 Feb, 2024",
+    "metacritic_score": "N/A",
+    "price": 16.98,
+    "url": "store.steampowered.com/app/1458140/"
   },
   {
-    "name": "Islands of Insight",
-    "release_date": "\n                    13 Feb, 2024                ",
-    "reviews_count": 866,
-    "positive_reviews_percent": 87,
-    "metacritic_score": 0,
+    "title": "Ruindog:Prologue",
+    "release_date": "22 Feb, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "url": "store.steampowered.com/app/2802430/"
+  },
+  {
+    "title": "Yohane the Parhelion - NUMAZU in the MIRAGE -",
+    "release_date": "22 Feb, 2024",
+    "metacritic_score": "N/A",
     "price": 29.99,
-    "url": "https://store.steampowered.com/app/2071500/Islands_of_Insight/?snr=1_7_7_popularnew_150_1"
+    "url": "store.steampowered.com/app/2459750/"
   },
   {
-    "name": "Space Will:Prologue",
-    "release_date": "\n                    12 Feb, 2024                ",
-    "reviews_count": 932,
-    "positive_reviews_percent": 98,
-    "metacritic_score": 0,
+    "title": "Myth of Empires",
+    "release_date": "21 Feb, 2024",
+    "metacritic_score": "N/A",
+    "price": 4.99,
+    "url": "store.steampowered.com/app/1371580/"
+  },
+  {
+    "title": "Last Epoch",
+    "release_date": "21 Feb, 2024",
+    "metacritic_score": "73",
+    "price": 33.99,
+    "url": "store.steampowered.com/app/899770/"
+  },
+  {
+    "title": "Bandle Tale: A League of Legends Story",
+    "release_date": "21 Feb, 2024",
+    "metacritic_score": "N/A",
+    "price": 24.99,
+    "url": "store.steampowered.com/app/1759380/"
+  },
+  {
+    "title": "Terminator: Dark Fate - Defiance",
+    "release_date": "21 Feb, 2024",
+    "metacritic_score": "N/A",
     "price": 0.0,
-    "url": "https://store.steampowered.com/app/2802530/Space_WillPrologue/?snr=1_7_7_popularnew_150_1"
+    "url": "store.steampowered.com/app/1839950/"
   },
   {
-    "name": "Banishers: Ghosts of New Eden",
-    "release_date": "\n                    12 Feb, 2024                ",
-    "reviews_count": 3129,
-    "positive_reviews_percent": 99,
-    "metacritic_score": 0,
+    "title": "Penny\u2019s Big Breakaway",
+    "release_date": "21 Feb, 2024",
+    "metacritic_score": "N/A",
+    "price": 29.99,
+    "url": "store.steampowered.com/app/1955230/"
+  },
+  {
+    "title": "Supermarket Simulator",
+    "release_date": "20 Feb, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "url": "store.steampowered.com/app/2670630/"
+  },
+  {
+    "title": "Nightingale",
+    "release_date": "20 Feb, 2024",
+    "metacritic_score": "N/A",
+    "price": 9.75,
+    "url": "store.steampowered.com/app/1928980/"
+  },
+  {
+    "title": "Balatro",
+    "release_date": "20 Feb, 2024",
+    "metacritic_score": "92",
+    "price": 2.99,
+    "url": "store.steampowered.com/app/2379780/"
+  },
+  {
+    "title": "Le Mans Ultimate",
+    "release_date": "20 Feb, 2024",
+    "metacritic_score": "N/A",
+    "price": 29.99,
+    "url": "store.steampowered.com/app/2399420/"
+  },
+  {
+    "title": "Free Stars: The Ur-Quan Masters",
+    "release_date": "19 Feb, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "url": "store.steampowered.com/app/2645580/"
+  },
+  {
+    "title": "Please, Touch The Artwork 2",
+    "release_date": "19 Feb, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "url": "store.steampowered.com/app/2600140/"
+  },
+  {
+    "title": "20 Small Mazes",
+    "release_date": "16 Feb, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "url": "store.steampowered.com/app/2570630/"
+  },
+  {
+    "title": "Caribbean Legend",
+    "release_date": "15 Feb, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "url": "store.steampowered.com/app/2230980/"
+  },
+  {
+    "title": "Goat Simulator 3",
+    "release_date": "15 Feb, 2024",
+    "metacritic_score": "N/A",
+    "price": 8.44,
+    "url": "store.steampowered.com/app/850190/"
+  },
+  {
+    "title": "Spirit Hunter: Death Mark II",
+    "release_date": "15 Feb, 2024",
+    "metacritic_score": "N/A",
+    "price": 48.99,
+    "url": "store.steampowered.com/app/2080800/"
+  },
+  {
+    "title": "Deep Rock Galactic: Survivor",
+    "release_date": "14 Feb, 2024",
+    "metacritic_score": "N/A",
+    "price": 9.99,
+    "url": "store.steampowered.com/app/2321470/"
+  },
+  {
+    "title": "Tomb Raider I-III Remastered Starring Lara Croft",
+    "release_date": "14 Feb, 2024",
+    "metacritic_score": "N/A",
+    "price": 28.99,
+    "url": "store.steampowered.com/app/2478970/"
+  },
+  {
+    "title": "Space Will:Prologue",
+    "release_date": "13 Feb, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "url": "store.steampowered.com/app/2802530/"
+  },
+  {
+    "title": "Banishers: Ghosts of New Eden",
+    "release_date": "12 Feb, 2024",
+    "metacritic_score": "N/A",
     "price": 49.99,
-    "url": "https://store.steampowered.com/app/1493640/Banishers_Ghosts_of_New_Eden/?snr=1_7_7_popularnew_150_1"
+    "url": "store.steampowered.com/app/1493640/"
   },
   {
-    "name": "100 Ninja Cats",
-    "release_date": "\n                    12 Feb, 2024                ",
-    "reviews_count": 438,
-    "positive_reviews_percent": 94,
-    "metacritic_score": 0,
+    "title": "SpellRogue",
+    "release_date": "12 Feb, 2024",
+    "metacritic_score": "N/A",
     "price": 0.0,
-    "url": "https://store.steampowered.com/app/2776810/100_Ninja_Cats/?snr=1_7_7_popularnew_150_1"
+    "url": "store.steampowered.com/app/1990110/"
   },
   {
-    "name": "Sheepy: A Short Adventure",
-    "release_date": "\n                    6 Feb, 2024                ",
-    "reviews_count": 8917,
-    "positive_reviews_percent": 97,
-    "metacritic_score": 0,
+    "title": "100 Ninja Cats",
+    "release_date": "12 Feb, 2024",
+    "metacritic_score": "N/A",
     "price": 0.0,
-    "url": "https://store.steampowered.com/app/1568400/Sheepy_A_Short_Adventure/?snr=1_7_7_popularnew_150_1"
+    "url": "store.steampowered.com/app/2776810/"
   },
   {
-    "name": "Nothing Together",
-    "release_date": "\n                    2 Feb, 2024                ",
-    "reviews_count": 128,
-    "positive_reviews_percent": 93,
-    "metacritic_score": 0,
+    "title": "Sheepy: A Short Adventure",
+    "release_date": "6 Feb, 2024",
+    "metacritic_score": "N/A",
     "price": 0.0,
-    "url": "https://store.steampowered.com/app/2788630/Nothing_Together/?snr=1_7_7_popularnew_150_1"
+    "url": "store.steampowered.com/app/1568400/"
   },
   {
-    "name": "Persona 3 Reload",
-    "release_date": "\n                    1 Feb, 2024                ",
-    "reviews_count": 545,
-    "positive_reviews_percent": 90,
-    "metacritic_score": 0,
+    "title": "Soak & Splash",
+    "release_date": "4 Feb, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "url": "store.steampowered.com/app/2051500/"
+  },
+  {
+    "title": "Nothing Together",
+    "release_date": "2 Feb, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "url": "store.steampowered.com/app/2788630/"
+  },
+  {
+    "title": "Persona 3 Reload",
+    "release_date": "2 Feb, 2024",
+    "metacritic_score": "N/A",
     "price": 69.99,
-    "url": "https://store.steampowered.com/app/2161700/Persona_3_Reload/?snr=1_7_7_popularnew_150_1"
+    "url": "store.steampowered.com/app/2161700/"
   },
   {
-    "name": "Chess for idiots",
-    "release_date": "\n                    1 Feb, 2024                ",
-    "reviews_count": 1306,
-    "positive_reviews_percent": 85,
-    "metacritic_score": 0,
+    "title": "Chess for idiots",
+    "release_date": "1 Feb, 2024",
+    "metacritic_score": "N/A",
     "price": 0.0,
-    "url": "https://store.steampowered.com/app/2121150/Chess_for_idiots/?snr=1_7_7_popularnew_150_1"
+    "url": "store.steampowered.com/app/2121150/"
   },
   {
-    "name": "Boxes: Lost Fragments",
-    "release_date": "\n                    1 Feb, 2024                ",
-    "reviews_count": 21637,
-    "positive_reviews_percent": 90,
-    "metacritic_score": 0,
-    "price": 14.99,
-    "url": "https://store.steampowered.com/app/2019810/Boxes_Lost_Fragments/?snr=1_7_7_popularnew_150_1"
-  },
-  {
-    "name": "Dominion",
-    "release_date": "\n                    1 Feb, 2024                ",
-    "reviews_count": 340,
-    "positive_reviews_percent": 97,
-    "metacritic_score": 0,
+    "title": "Dominion",
+    "release_date": "1 Feb, 2024",
+    "metacritic_score": "N/A",
     "price": 0.0,
-    "url": "https://store.steampowered.com/app/1131620/Dominion/?snr=1_7_7_popularnew_150_1"
+    "url": "store.steampowered.com/app/1131620/"
   },
   {
-    "name": "Granblue Fantasy: Relink",
-    "release_date": "\n                    31 Jan, 2024                ",
-    "reviews_count": 1236,
-    "positive_reviews_percent": 99,
-    "metacritic_score": 0,
+    "title": "My Recycling Center",
+    "release_date": "1 Feb, 2024",
+    "metacritic_score": "N/A",
+    "price": 14.95,
+    "url": "store.steampowered.com/app/2613060/"
+  },
+  {
+    "title": "Granblue Fantasy: Relink",
+    "release_date": "1 Feb, 2024",
+    "metacritic_score": "N/A",
     "price": 59.99,
-    "url": "https://store.steampowered.com/app/881020/Granblue_Fantasy_Relink/?snr=1_7_7_popularnew_150_1"
+    "url": "store.steampowered.com/app/881020/"
   },
   {
-    "name": "Supermarket Simulator: Prologue",
-    "release_date": "\n                    26 Jan, 2024                ",
-    "reviews_count": 11202,
-    "positive_reviews_percent": 89,
-    "metacritic_score": 0,
+    "title": "Supermarket Simulator: Prologue",
+    "release_date": "26 Jan, 2024",
+    "metacritic_score": "N/A",
     "price": 0.0,
-    "url": "https://store.steampowered.com/app/2772560/Supermarket_Simulator_Prologue/?snr=1_7_7_popularnew_150_1"
+    "url": "store.steampowered.com/app/2772560/"
   },
   {
-    "name": "Paper Lily - Chapter 1",
-    "release_date": "\n                    26 Jan, 2024                ",
-    "reviews_count": 5498,
-    "positive_reviews_percent": 91,
-    "metacritic_score": 0,
+    "title": "Paper Lily - Chapter 1",
+    "release_date": "26 Jan, 2024",
+    "metacritic_score": "N/A",
     "price": 0.0,
-    "url": "https://store.steampowered.com/app/2220360/Paper_Lily__Chapter_1/?snr=1_7_7_popularnew_150_1"
+    "url": "store.steampowered.com/app/2220360/"
   },
   {
-    "name": "TEKKEN 8",
-    "release_date": "\n                    25 Jan, 2024                ",
-    "reviews_count": 752,
-    "positive_reviews_percent": 92,
-    "metacritic_score": 92,
+    "title": "TEKKEN 8",
+    "release_date": "26 Jan, 2024",
+    "metacritic_score": "92",
     "price": 69.99,
-    "url": "https://store.steampowered.com/app/1778820/TEKKEN_8/?snr=1_7_7_popularnew_150_1"
+    "url": "store.steampowered.com/app/1778820/"
   },
   {
-    "name": "Like a Dragon: Infinite Wealth",
-    "release_date": "\n                    25 Jan, 2024                ",
-    "reviews_count": 33362,
-    "positive_reviews_percent": 86,
-    "metacritic_score": 0,
-    "price": 69.99,
-    "url": "https://store.steampowered.com/app/2072450/Like_a_Dragon_Infinite_Wealth/?snr=1_7_7_popularnew_150_1"
-  },
-  {
-    "name": "Apollo Justice: Ace Attorney Trilogy",
-    "release_date": "\n                    24 Jan, 2024                ",
-    "reviews_count": 93,
-    "positive_reviews_percent": 86,
-    "metacritic_score": 76,
+    "title": "UNDER NIGHT IN-BIRTH II Sys:Celes",
+    "release_date": "25 Jan, 2024",
+    "metacritic_score": "N/A",
     "price": 49.99,
-    "url": "https://store.steampowered.com/app/2187220/Apollo_Justice_Ace_Attorney_Trilogy/?snr=1_7_7_popularnew_150_1"
+    "url": "store.steampowered.com/app/2076010/"
   },
   {
-    "name": "Enshrouded",
-    "release_date": "\n                    24 Jan, 2024                ",
-    "reviews_count": 491,
-    "positive_reviews_percent": 93,
-    "metacritic_score": 0,
+    "title": "Enshrouded",
+    "release_date": "24 Jan, 2024",
+    "metacritic_score": "N/A",
     "price": 29.99,
-    "url": "https://store.steampowered.com/app/1203620/Enshrouded/?snr=1_7_7_popularnew_150_1"
+    "url": "store.steampowered.com/app/1203620/"
   },
   {
-    "name": "Summon Masters",
-    "release_date": "\n                    24 Jan, 2024                ",
-    "reviews_count": 1035,
-    "positive_reviews_percent": 94,
-    "metacritic_score": 0,
+    "title": "Summon Masters",
+    "release_date": "24 Jan, 2024",
+    "metacritic_score": "N/A",
     "price": 0.0,
-    "url": "https://store.steampowered.com/app/2100140/Summon_Masters/?snr=1_7_7_popularnew_150_1"
+    "url": "store.steampowered.com/app/2100140/"
   },
   {
-    "name": "Trans-Siberian Railway Simulator: Prologue",
-    "release_date": "\n                    23 Jan, 2024                ",
-    "reviews_count": 226751,
-    "positive_reviews_percent": 94,
-    "metacritic_score": 0,
+    "title": "Trans-Siberian Railway Simulator: Prologue",
+    "release_date": "23 Jan, 2024",
+    "metacritic_score": "N/A",
     "price": 0.0,
-    "url": "https://store.steampowered.com/app/2248950/TransSiberian_Railway_Simulator_Prologue/?snr=1_7_7_popularnew_150_1"
+    "url": "store.steampowered.com/app/2248950/"
   },
   {
-    "name": "Intravenous 2: Mercenarism",
-    "release_date": "\n                    19 Jan, 2024                ",
-    "reviews_count": 996,
-    "positive_reviews_percent": 79,
-    "metacritic_score": 0,
+    "title": "Intravenous 2: Mercenarism",
+    "release_date": "19 Jan, 2024",
+    "metacritic_score": "N/A",
     "price": 0.0,
-    "url": "https://store.steampowered.com/app/2651330/Intravenous_2_Mercenarism/?snr=1_7_7_popularnew_150_1"
+    "url": "store.steampowered.com/app/2651330/"
   },
   {
-    "name": "Palworld",
-    "release_date": "\n                    18 Jan, 2024                ",
-    "reviews_count": 128,
-    "positive_reviews_percent": 80,
-    "metacritic_score": 0,
+    "title": "Palworld",
+    "release_date": "19 Jan, 2024",
+    "metacritic_score": "N/A",
     "price": 28.99,
-    "url": "https://store.steampowered.com/app/1623730/Palworld/?snr=1_7_7_popularnew_150_1"
+    "url": "store.steampowered.com/app/1623730/"
   },
   {
-    "name": "New Cycle",
-    "release_date": "\n                    18 Jan, 2024                ",
-    "reviews_count": 525,
-    "positive_reviews_percent": 85,
-    "metacritic_score": 0,
+    "title": "New Cycle",
+    "release_date": "18 Jan, 2024",
+    "metacritic_score": "N/A",
     "price": 29.99,
-    "url": "https://store.steampowered.com/app/2198510/New_Cycle/?snr=1_7_7_popularnew_150_1"
-  },
-  {
-    "name": "\u9ed1\u767d\u4e4b\u5730 Xanadu Land",
-    "release_date": "\n                    17 Jan, 2024                ",
-    "reviews_count": 1071,
-    "positive_reviews_percent": 94,
-    "metacritic_score": 0,
-    "price": 0.0,
-    "url": "https://store.steampowered.com/app/2258890/_Xanadu_Land/?snr=1_7_7_popularnew_150_1"
-  },
-  {
-    "name": "Artifact Seeker:Prologue",
-    "release_date": "\n                    16 Jan, 2024                ",
-    "reviews_count": 3880,
-    "positive_reviews_percent": 94,
-    "metacritic_score": 0,
-    "price": 0.0,
-    "url": "https://store.steampowered.com/app/2744170/Artifact_SeekerPrologue/?snr=1_7_7_popularnew_150_1"
-  },
-  {
-    "name": "Frostrain",
-    "release_date": "\n                    10 Jan, 2024                ",
-    "reviews_count": 4001,
-    "positive_reviews_percent": 70,
-    "metacritic_score": 0,
-    "price": 0.0,
-    "url": "https://store.steampowered.com/app/2735630/Frostrain/?snr=1_7_7_popularnew_150_1"
-  },
-  {
-    "name": "Nothing",
-    "release_date": "\n                    10 Jan, 2024                ",
-    "reviews_count": 211,
-    "positive_reviews_percent": 89,
-    "metacritic_score": 0,
-    "price": 0.0,
-    "url": "https://store.steampowered.com/app/2696480/Nothing/?snr=1_7_7_popularnew_150_1"
-  },
-  {
-    "name": "Summoners War",
-    "release_date": "\n                    7 Jan, 2024                ",
-    "reviews_count": 4136,
-    "positive_reviews_percent": 97,
-    "metacritic_score": 0,
-    "price": 0.0,
-    "url": "https://store.steampowered.com/app/2426960/Summoners_War/?snr=1_7_7_popularnew_150_1"
-  },
-  {
-    "name": "Fairytale Fables",
-    "release_date": "\n                    23 Dec, 2023                ",
-    "reviews_count": 11537,
-    "positive_reviews_percent": 89,
-    "metacritic_score": 0,
-    "price": 0.0,
-    "url": "https://store.steampowered.com/app/2639420/Fairytale_Fables/?snr=1_7_7_popularnew_150_1"
+    "url": "store.steampowered.com/app/2198510/"
   }
 ]
