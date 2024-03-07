@@ -17,7 +17,6 @@ def find_cars(url):
 
     with webdriver.Chrome() as driver:
         driver.get(url)
-        time.sleep(0.1)
         soup = BeautifulSoup(driver.page_source, "html.parser")
 
         car_elements = soup.find_all("a", class_="childVifUrl tricky_link")

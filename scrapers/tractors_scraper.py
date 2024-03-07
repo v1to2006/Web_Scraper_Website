@@ -8,14 +8,12 @@ class Tractor:
         self.price = price
         self.url = url
 
-def find_tractors():
+def find_tractors(url):
     tractors = []
 
     with webdriver.Chrome() as driver:
-        url = 'https://www.nettikone.com/maatalouskoneet/traktorit?id_country[]=73'
 
         driver.get(url)
-        time.sleep(0.1)
         soup = BeautifulSoup(driver.page_source, "html.parser")
 
         tractor_elements = soup.find_all("a", class_="childVifUrl tricky_link")
@@ -42,7 +40,13 @@ def save_to_json(filename):
        
         print(f"Tractors results saved to {filename}")
 
-tractor_list = find_tractors()
+tractor_list = []
+
+for i in range(10):
+    url = f'https://www.nettikone.com/maatalouskoneet/traktorit?id_country[]=73&page={i + 1}'
+    
+    for tractor in find_tractors(url):
+        tractor_list.append(tractor)
 
 save_to_json("C:/GitHub/Web/Web_Scraper_Project/Web_Scraper_Website/scrapers/results/tractors_results.json")
 
