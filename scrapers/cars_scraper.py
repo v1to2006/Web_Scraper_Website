@@ -46,7 +46,7 @@ def save_to_json(filename):
 car_list = []
 
 for i in range(10):
-    url = f'https://www.nettiauto.com/vaihtoautot?pfrom=5000&pto=75000&id_country[]=73&page={i + 1}'
+    url = f'https://www.nettiauto.com/listAdvSearchFindAgent.php?id=235831213&tb=tmp_find_agent&PN[0]=adv_search&PL[0]=advSearch.php?id_country[]=73@qs=Y?id=235831213@tb=tmp_find_agent&page={i + 1}'
     
     for car in find_cars(url):
         car_list.append(car)
