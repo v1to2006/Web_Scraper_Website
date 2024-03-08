@@ -6,11 +6,12 @@ STEAM_SEARCH_URL = 'https://store.steampowered.com/search/?sort_by=Released_DESC
 STEAM_GAME_URL = 'https://store.steampowered.com/app/{}/'
 
 class Game:
-    def __init__(self, title, release_date, metacritic_score, price, url):
+    def __init__(self, title, release_date, metacritic_score, price, image, url):
         self.title = title
         self.release_date = release_date
         self.metacritic_score = metacritic_score
         self.price = price
+        self.image = image
         self.url = url
 
 def main():
@@ -37,9 +38,10 @@ def get_game_data(driver, game_id):
     release_date = get_text_content(soup, 'div.release_date div.date') or "N/A"
     metacritic_score = get_text_content(soup, 'div#game_area_metascore div.score') or "N/A"
     price = get_numeric_price(soup, 'div.game_purchase_price') or 0.0
+    image = soup.find("img", class_ = "game_header_image_full")["src"] or "N/A"
     url = f'https://store.steampowered.com/app/{game_id}/'
 
-    return Game(title, release_date, metacritic_score, price, url)
+    return Game(title, release_date, metacritic_score, price, image, url)
 
 def get_page_soup(driver, url):
     driver.get(url)

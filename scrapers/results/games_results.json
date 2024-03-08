@@ -1,65 +1,314 @@
 [
   {
-    "title": "Solium Infernum",
-    "release_date": "22 Feb, 2024",
+    "title": "WWE 2K24",
+    "release_date": "8 Mar, 2024",
     "metacritic_score": "N/A",
-    "price": 0.0,
-    "url": "https://store.steampowered.com/app/1893810/"
+    "price": 59.99,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2315690/header.jpg?t=1709876957",
+    "url": "https://store.steampowered.com/app/2315690/"
   },
   {
-    "title": "Bootstrap Island",
-    "release_date": "22 Feb, 2024",
+    "title": "Dragon's Dogma 2 Character Creator & Storage",
+    "release_date": "8 Mar, 2024",
     "metacritic_score": "N/A",
     "price": 0.0,
-    "url": "https://store.steampowered.com/app/1942110/"
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2674810/header.jpg?t=1709856371",
+    "url": "https://store.steampowered.com/app/2674810/"
+  },
+  {
+    "title": "Duelists of Eden",
+    "release_date": "7 Mar, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1664200/header.jpg?t=1709848283",
+    "url": "https://store.steampowered.com/app/1664200/"
+  },
+  {
+    "title": "Dungeon Keeper Gold\u2122",
+    "release_date": "7 Mar, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1996630/header.jpg?t=1709845457",
+    "url": "https://store.steampowered.com/app/1996630/"
+  },
+  {
+    "title": "Command & Conquer Red Alert\u2122 2 and Yuri\u2019s Revenge\u2122",
+    "release_date": "7 Mar, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2229850/header.jpg?t=1709846282",
+    "url": "https://store.steampowered.com/app/2229850/"
+  },
+  {
+    "title": "Command & Conquer\u2122 Generals Zero Hour",
+    "release_date": "7 Mar, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2732960/header.jpg?t=1709846199",
+    "url": "https://store.steampowered.com/app/2732960/"
+  },
+  {
+    "title": "Command & Conquer\u2122 Tiberian Sun\u2122 and Firestorm\u2122",
+    "release_date": "7 Mar, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2229880/header.jpg?t=1709846030",
+    "url": "https://store.steampowered.com/app/2229880/"
+  },
+  {
+    "title": "Command & Conquer Renegade\u2122",
+    "release_date": "7 Mar, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2229890/header.jpg?t=1709849445",
+    "url": "https://store.steampowered.com/app/2229890/"
+  },
+  {
+    "title": "Command & Conquer\u2122 Generals",
+    "release_date": "7 Mar, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2229870/header.jpg?t=1709846167",
+    "url": "https://store.steampowered.com/app/2229870/"
+  },
+  {
+    "title": "Dungeon Keeper\u2122 2",
+    "release_date": "7 Mar, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2616460/header.jpg?t=1709845352",
+    "url": "https://store.steampowered.com/app/2616460/"
+  },
+  {
+    "title": "Between the Stars",
+    "release_date": "7 Mar, 2024",
+    "metacritic_score": "N/A",
+    "price": 4.99,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/727130/header.jpg?t=1709841015",
+    "url": "https://store.steampowered.com/app/727130/"
+  },
+  {
+    "title": "Sim City 3000\u2122 Unlimited",
+    "release_date": "7 Mar, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2741560/header.jpg?t=1709845636",
+    "url": "https://store.steampowered.com/app/2741560/"
+  },
+  {
+    "title": "Sid Meier's Alpha Centauri\u2122 Planetary Pack",
+    "release_date": "7 Mar, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2204130/header.jpg?t=1709845537",
+    "url": "https://store.steampowered.com/app/2204130/"
+  },
+  {
+    "title": "Zoria: Age of Shattering",
+    "release_date": "7 Mar, 2024",
+    "metacritic_score": "N/A",
+    "price": 24.5,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1159090/header_alt_assets_0.jpg?t=1709858682",
+    "url": "https://store.steampowered.com/app/1159090/"
+  },
+  {
+    "title": "The Saboteur\u2122",
+    "release_date": "7 Mar, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/24880/header.jpg?t=1709845280",
+    "url": "https://store.steampowered.com/app/24880/"
+  },
+  {
+    "title": "Populous\u2122: The Beginning",
+    "release_date": "7 Mar, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2616430/header.jpg?t=1709845212",
+    "url": "https://store.steampowered.com/app/2616430/"
+  },
+  {
+    "title": "Taxi Life: A City Driving Simulator",
+    "release_date": "7 Mar, 2024",
+    "metacritic_score": "N/A",
+    "price": 29.99,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1351240/header.jpg?t=1709857315",
+    "url": "https://store.steampowered.com/app/1351240/"
+  },
+  {
+    "title": "New Star GP",
+    "release_date": "7 Mar, 2024",
+    "metacritic_score": "N/A",
+    "price": 29.99,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2217580/header.jpg?t=1709825784",
+    "url": "https://store.steampowered.com/app/2217580/"
+  },
+  {
+    "title": "Snufkin: Melody of Moominvalley",
+    "release_date": "7 Mar, 2024",
+    "metacritic_score": "N/A",
+    "price": 19.99,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1808680/header.jpg?t=1709831310",
+    "url": "https://store.steampowered.com/app/1808680/"
+  },
+  {
+    "title": "A Difficult Game About Climbing",
+    "release_date": "6 Mar, 2024",
+    "metacritic_score": "N/A",
+    "price": 9.75,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2497920/header.jpg?t=1709744431",
+    "url": "https://store.steampowered.com/app/2497920/"
+  },
+  {
+    "title": "100 March Cats",
+    "release_date": "6 Mar, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2845260/header.jpg?t=1709744803",
+    "url": "https://store.steampowered.com/app/2845260/"
+  },
+  {
+    "title": "Heavy Storm Shadow:Prologue",
+    "release_date": "6 Mar, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2802380/header.jpg?t=1709810788",
+    "url": "https://store.steampowered.com/app/2802380/"
+  },
+  {
+    "title": "Quilts and Cats of Calico",
+    "release_date": "5 Mar, 2024",
+    "metacritic_score": "N/A",
+    "price": 9.99,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1993180/header.jpg?t=1709663584",
+    "url": "https://store.steampowered.com/app/1993180/"
+  },
+  {
+    "title": "Classified: France '44",
+    "release_date": "5 Mar, 2024",
+    "metacritic_score": "N/A",
+    "price": 34.99,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2085370/header.jpg?t=1709727975",
+    "url": "https://store.steampowered.com/app/2085370/"
+  },
+  {
+    "title": "The Outlast Trials",
+    "release_date": "5 Mar, 2024",
+    "metacritic_score": "N/A",
+    "price": 38.99,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1304930/header.jpg?t=1709677975",
+    "url": "https://store.steampowered.com/app/1304930/"
+  },
+  {
+    "title": "Sixty Four",
+    "release_date": "4 Mar, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2659900/header.jpg?t=1709871568",
+    "url": "https://store.steampowered.com/app/2659900/"
+  },
+  {
+    "title": "The Thaumaturge",
+    "release_date": "4 Mar, 2024",
+    "metacritic_score": "N/A",
+    "price": 34.99,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1684350/header.jpg?t=1709742147",
+    "url": "https://store.steampowered.com/app/1684350/"
+  },
+  {
+    "title": "Mortal Glory 2",
+    "release_date": "4 Mar, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2216660/header.jpg?t=1709836966",
+    "url": "https://store.steampowered.com/app/2216660/"
+  },
+  {
+    "title": "ServiceIT: You can do IT",
+    "release_date": "4 Mar, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2194730/header.jpg?t=1709626060",
+    "url": "https://store.steampowered.com/app/2194730/"
+  },
+  {
+    "title": "Vivaland: Dream House",
+    "release_date": "1 Mar, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2606170/header.jpg?t=1709804132",
+    "url": "https://store.steampowered.com/app/2606170/"
+  },
+  {
+    "title": "KeeperRL",
+    "release_date": "29 Feb, 2024",
+    "metacritic_score": "N/A",
+    "price": 3.29,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/329970/header.jpg?t=1709280341",
+    "url": "https://store.steampowered.com/app/329970/"
+  },
+  {
+    "title": "Secrets of Grindea",
+    "release_date": "29 Feb, 2024",
+    "metacritic_score": "N/A",
+    "price": 13.99,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/269770/header.jpg?t=1709229612",
+    "url": "https://store.steampowered.com/app/269770/"
+  },
+  {
+    "title": "Meta-Ghost: Prologue",
+    "release_date": "29 Feb, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2811970/header.jpg?t=1709723687",
+    "url": "https://store.steampowered.com/app/2811970/"
+  },
+  {
+    "title": "100 Dino Cats",
+    "release_date": "26 Feb, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2803000/header.jpg?t=1709146681",
+    "url": "https://store.steampowered.com/app/2803000/"
+  },
+  {
+    "title": "NIGHT-RUNNERS\u2122 PROLOGUE",
+    "release_date": "23 Feb, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2707900/header.jpg?t=1708958635",
+    "url": "https://store.steampowered.com/app/2707900/"
+  },
+  {
+    "title": "Alpha League",
+    "release_date": "23 Feb, 2024",
+    "metacritic_score": "N/A",
+    "price": 0.0,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2684500/header.jpg?t=1709870080",
+    "url": "https://store.steampowered.com/app/2684500/"
+  },
+  {
+    "title": "Solium Infernum",
+    "release_date": "22 Feb, 2024",
+    "metacritic_score": "84",
+    "price": 38.99,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1893810/header.jpg?t=1709863524",
+    "url": "https://store.steampowered.com/app/1893810/"
   },
   {
     "title": "Sons Of The Forest",
     "release_date": "22 Feb, 2024",
     "metacritic_score": "N/A",
     "price": 28.99,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1326470/header.jpg?t=1708624856",
     "url": "https://store.steampowered.com/app/1326470/"
-  },
-  {
-    "title": "Regency Solitaire II",
-    "release_date": "22 Feb, 2024",
-    "metacritic_score": "N/A",
-    "price": 0.0,
-    "url": "https://store.steampowered.com/app/2137470/"
-  },
-  {
-    "title": "Death From Above",
-    "release_date": "22 Feb, 2024",
-    "metacritic_score": "N/A",
-    "price": 11.77,
-    "url": "https://store.steampowered.com/app/2300160/"
-  },
-  {
-    "title": "The Tribe Must Survive",
-    "release_date": "22 Feb, 2024",
-    "metacritic_score": "N/A",
-    "price": 0.0,
-    "url": "https://store.steampowered.com/app/1729940/"
-  },
-  {
-    "title": "Garden Life: A Cozy Simulator",
-    "release_date": "22 Feb, 2024",
-    "metacritic_score": "N/A",
-    "price": 24.99,
-    "url": "https://store.steampowered.com/app/1915380/"
-  },
-  {
-    "title": "Rail Route",
-    "release_date": "22 Feb, 2024",
-    "metacritic_score": "N/A",
-    "price": 9.99,
-    "url": "https://store.steampowered.com/app/1124180/"
   },
   {
     "title": "Pacific Drive",
     "release_date": "22 Feb, 2024",
     "metacritic_score": "N/A",
-    "price": 16.98,
+    "price": 29.99,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1458140/header.jpg?t=1708641540",
     "url": "https://store.steampowered.com/app/1458140/"
   },
   {
@@ -67,27 +316,15 @@
     "release_date": "22 Feb, 2024",
     "metacritic_score": "N/A",
     "price": 0.0,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2802430/header.jpg?t=1708706298",
     "url": "https://store.steampowered.com/app/2802430/"
-  },
-  {
-    "title": "Yohane the Parhelion - NUMAZU in the MIRAGE -",
-    "release_date": "22 Feb, 2024",
-    "metacritic_score": "N/A",
-    "price": 29.99,
-    "url": "https://store.steampowered.com/app/2459750/"
-  },
-  {
-    "title": "Myth of Empires",
-    "release_date": "21 Feb, 2024",
-    "metacritic_score": "N/A",
-    "price": 4.99,
-    "url": "https://store.steampowered.com/app/1371580/"
   },
   {
     "title": "Last Epoch",
     "release_date": "21 Feb, 2024",
-    "metacritic_score": "73",
+    "metacritic_score": "77",
     "price": 33.99,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/899770/header.jpg?t=1709060046",
     "url": "https://store.steampowered.com/app/899770/"
   },
   {
@@ -95,34 +332,15 @@
     "release_date": "21 Feb, 2024",
     "metacritic_score": "N/A",
     "price": 24.99,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1759380/header.jpg?t=1708719402",
     "url": "https://store.steampowered.com/app/1759380/"
-  },
-  {
-    "title": "Terminator: Dark Fate - Defiance",
-    "release_date": "21 Feb, 2024",
-    "metacritic_score": "N/A",
-    "price": 0.0,
-    "url": "https://store.steampowered.com/app/1839950/"
-  },
-  {
-    "title": "Supermarket Simulator",
-    "release_date": "20 Feb, 2024",
-    "metacritic_score": "N/A",
-    "price": 0.0,
-    "url": "https://store.steampowered.com/app/2670630/"
-  },
-  {
-    "title": "Nightingale",
-    "release_date": "20 Feb, 2024",
-    "metacritic_score": "N/A",
-    "price": 9.75,
-    "url": "https://store.steampowered.com/app/1928980/"
   },
   {
     "title": "Balatro",
     "release_date": "20 Feb, 2024",
-    "metacritic_score": "92",
-    "price": 2.99,
+    "metacritic_score": "90",
+    "price": 13.99,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2379780/header.jpg?t=1709738226",
     "url": "https://store.steampowered.com/app/2379780/"
   },
   {
@@ -130,20 +348,23 @@
     "release_date": "20 Feb, 2024",
     "metacritic_score": "N/A",
     "price": 29.99,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2399420/header.jpg?t=1709146572",
     "url": "https://store.steampowered.com/app/2399420/"
   },
   {
-    "title": "Free Stars: The Ur-Quan Masters",
-    "release_date": "19 Feb, 2024",
+    "title": "World of Shooting",
+    "release_date": "20 Feb, 2024",
     "metacritic_score": "N/A",
     "price": 0.0,
-    "url": "https://store.steampowered.com/app/2645580/"
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1678150/header.jpg?t=1709237452",
+    "url": "https://store.steampowered.com/app/1678150/"
   },
   {
     "title": "Please, Touch The Artwork 2",
     "release_date": "19 Feb, 2024",
-    "metacritic_score": "N/A",
+    "metacritic_score": "86",
     "price": 0.0,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2600140/header.jpg?t=1708975190",
     "url": "https://store.steampowered.com/app/2600140/"
   },
   {
@@ -151,20 +372,23 @@
     "release_date": "16 Feb, 2024",
     "metacritic_score": "N/A",
     "price": 0.0,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2570630/header.jpg?t=1708106364",
     "url": "https://store.steampowered.com/app/2570630/"
   },
   {
-    "title": "Goat Simulator 3",
+    "title": "Sonder",
     "release_date": "15 Feb, 2024",
     "metacritic_score": "N/A",
-    "price": 8.44,
-    "url": "https://store.steampowered.com/app/850190/"
+    "price": 0.0,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2692570/header.jpg?t=1709134067",
+    "url": "https://store.steampowered.com/app/2692570/"
   },
   {
     "title": "Spirit Hunter: Death Mark II",
     "release_date": "15 Feb, 2024",
     "metacritic_score": "N/A",
     "price": 48.99,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2080800/header.jpg?t=1708119292",
     "url": "https://store.steampowered.com/app/2080800/"
   },
   {
@@ -172,181 +396,7 @@
     "release_date": "14 Feb, 2024",
     "metacritic_score": "N/A",
     "price": 9.99,
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2321470/header.jpg?t=1709623037",
     "url": "https://store.steampowered.com/app/2321470/"
-  },
-  {
-    "title": "Tomb Raider I-III Remastered Starring Lara Croft",
-    "release_date": "14 Feb, 2024",
-    "metacritic_score": "N/A",
-    "price": 28.99,
-    "url": "https://store.steampowered.com/app/2478970/"
-  },
-  {
-    "title": "Space Will:Prologue",
-    "release_date": "13 Feb, 2024",
-    "metacritic_score": "N/A",
-    "price": 0.0,
-    "url": "https://store.steampowered.com/app/2802530/"
-  },
-  {
-    "title": "Banishers: Ghosts of New Eden",
-    "release_date": "12 Feb, 2024",
-    "metacritic_score": "N/A",
-    "price": 49.99,
-    "url": "https://store.steampowered.com/app/1493640/"
-  },
-  {
-    "title": "SpellRogue",
-    "release_date": "12 Feb, 2024",
-    "metacritic_score": "N/A",
-    "price": 0.0,
-    "url": "https://store.steampowered.com/app/1990110/"
-  },
-  {
-    "title": "100 Ninja Cats",
-    "release_date": "12 Feb, 2024",
-    "metacritic_score": "N/A",
-    "price": 0.0,
-    "url": "https://store.steampowered.com/app/2776810/"
-  },
-  {
-    "title": "Sheepy: A Short Adventure",
-    "release_date": "6 Feb, 2024",
-    "metacritic_score": "N/A",
-    "price": 0.0,
-    "url": "https://store.steampowered.com/app/1568400/"
-  },
-  {
-    "title": "Soak & Splash",
-    "release_date": "4 Feb, 2024",
-    "metacritic_score": "N/A",
-    "price": 0.0,
-    "url": "https://store.steampowered.com/app/2051500/"
-  },
-  {
-    "title": "Nothing Together",
-    "release_date": "2 Feb, 2024",
-    "metacritic_score": "N/A",
-    "price": 0.0,
-    "url": "https://store.steampowered.com/app/2788630/"
-  },
-  {
-    "title": "Persona 3 Reload",
-    "release_date": "2 Feb, 2024",
-    "metacritic_score": "N/A",
-    "price": 69.99,
-    "url": "https://store.steampowered.com/app/2161700/"
-  },
-  {
-    "title": "Chess for idiots",
-    "release_date": "1 Feb, 2024",
-    "metacritic_score": "N/A",
-    "price": 0.0,
-    "url": "https://store.steampowered.com/app/2121150/"
-  },
-  {
-    "title": "Dominion",
-    "release_date": "1 Feb, 2024",
-    "metacritic_score": "N/A",
-    "price": 0.0,
-    "url": "https://store.steampowered.com/app/1131620/"
-  },
-  {
-    "title": "My Recycling Center",
-    "release_date": "1 Feb, 2024",
-    "metacritic_score": "N/A",
-    "price": 14.95,
-    "url": "https://store.steampowered.com/app/2613060/"
-  },
-  {
-    "title": "Granblue Fantasy: Relink",
-    "release_date": "1 Feb, 2024",
-    "metacritic_score": "N/A",
-    "price": 59.99,
-    "url": "https://store.steampowered.com/app/881020/"
-  },
-  {
-    "title": "Supermarket Simulator: Prologue",
-    "release_date": "26 Jan, 2024",
-    "metacritic_score": "N/A",
-    "price": 0.0,
-    "url": "https://store.steampowered.com/app/2772560/"
-  },
-  {
-    "title": "Paper Lily - Chapter 1",
-    "release_date": "26 Jan, 2024",
-    "metacritic_score": "N/A",
-    "price": 0.0,
-    "url": "https://store.steampowered.com/app/2220360/"
-  },
-  {
-    "title": "TEKKEN 8",
-    "release_date": "26 Jan, 2024",
-    "metacritic_score": "92",
-    "price": 69.99,
-    "url": "https://store.steampowered.com/app/1778820/"
-  },
-  {
-    "title": "UNDER NIGHT IN-BIRTH II Sys:Celes",
-    "release_date": "25 Jan, 2024",
-    "metacritic_score": "N/A",
-    "price": 49.99,
-    "url": "https://store.steampowered.com/app/2076010/"
-  },
-  {
-    "title": "Enshrouded",
-    "release_date": "24 Jan, 2024",
-    "metacritic_score": "N/A",
-    "price": 29.99,
-    "url": "https://store.steampowered.com/app/1203620/"
-  },
-  {
-    "title": "Summon Masters",
-    "release_date": "24 Jan, 2024",
-    "metacritic_score": "N/A",
-    "price": 0.0,
-    "url": "https://store.steampowered.com/app/2100140/"
-  },
-  {
-    "title": "Trans-Siberian Railway Simulator: Prologue",
-    "release_date": "23 Jan, 2024",
-    "metacritic_score": "N/A",
-    "price": 0.0,
-    "url": "https://store.steampowered.com/app/2248950/"
-  },
-  {
-    "title": "Intravenous 2: Mercenarism",
-    "release_date": "19 Jan, 2024",
-    "metacritic_score": "N/A",
-    "price": 0.0,
-    "url": "https://store.steampowered.com/app/2651330/"
-  },
-  {
-    "title": "Palworld",
-    "release_date": "19 Jan, 2024",
-    "metacritic_score": "N/A",
-    "price": 28.99,
-    "url": "https://store.steampowered.com/app/1623730/"
-  },
-  {
-    "title": "New Cycle",
-    "release_date": "18 Jan, 2024",
-    "metacritic_score": "N/A",
-    "price": 29.99,
-    "url": "https://store.steampowered.com/app/2198510/"
-  },
-  {
-    "title": "LONESTAR",
-    "release_date": "18 Jan, 2024",
-    "metacritic_score": "N/A",
-    "price": 9.75,
-    "url": "https://store.steampowered.com/app/2056210/"
-  },
-  {
-    "title": "\u9ed1\u767d\u4e4b\u5730 Xanadu Land",
-    "release_date": "18 Jan, 2024",
-    "metacritic_score": "N/A",
-    "price": 0.0,
-    "url": "https://store.steampowered.com/app/2258890/"
   }
 ]

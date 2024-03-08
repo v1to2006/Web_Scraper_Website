@@ -1,11 +1,12 @@
-import time, json
+import json
 from selenium import webdriver
 from bs4 import BeautifulSoup
 
 class Tractor:
-    def __init__(self, name, price, url):
+    def __init__(self, name, price, image, url):
         self.name = name
         self.price = price
+        self.image = image
         self.url = url
 
 def find_tractors(url):
@@ -18,8 +19,9 @@ def find_tractors(url):
 
         tractor_elements = soup.find_all("a", class_="childVifUrl tricky_link")
         tractor_prices = soup.find_all("div", class_="main_price")
+        tractor_images = soup.find_all("img", {"border": True})
         
-        for tractor_element, price in zip(tractor_elements, tractor_prices):
+        for tractor_element, price, image in zip(tractor_elements, tractor_prices, tractor_images):
             current_name = tractor_element.text
             
             if price.text.replace('\u20ac', '').replace(' ', '') == "Eihinnoiteltu":
@@ -28,8 +30,9 @@ def find_tractors(url):
                 current_price = float(price.text.replace('\u20ac', '').replace(' ', ''))
             
             current_url = tractor_element["href"]
+            current_image = image["data-src"]
             
-            tractors.append(Tractor(current_name, current_price, current_url))
+            tractors.append(Tractor(current_name, current_price, current_image, current_url))
 
     return tractors
 
